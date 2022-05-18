@@ -17,8 +17,14 @@ function App() {
           jbini React
         </a>
       </div>
+      <div>
+      test
+
+      </div>
     </div>
+    
   );
+    
 }
 
 export default App;
