@@ -60,7 +60,7 @@
   }
 }
 .first-container {
-  width: 100%;
+  min-width: 100%;
   text-align: center;
 }
 .first-div {
@@ -84,7 +84,14 @@
   padding-right: 200px;
 
 }
-
+.second-container {
+    margin-top: 100px;
+    min-width: 100%;
+    text-align: center;
+}
 .third-div {
+  background-color: #ececec;
+  width: 1350px;
+  height: 300px;
 
 }

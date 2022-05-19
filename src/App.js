@@ -27,9 +27,12 @@ function App() {
           second
         </div>
       </div>
-      <div className='third-div'>
+      <div className='second-container'>
+        <div className='third-div'>
         third
+        </div>
       </div>
+      
     </div>
     
   );
