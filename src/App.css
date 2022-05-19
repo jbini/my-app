@@ -85,13 +85,15 @@
 
 }
 .second-container {
-    margin-top: 100px;
-    min-width: 100%;
+    margin-top: 10px;
+    width: 2000px;
+
     text-align: center;
 }
 .third-div {
   background-color: #ececec;
   width: 1350px;
   height: 300px;
+  text-align: left;
 
 }

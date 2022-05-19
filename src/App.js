@@ -32,7 +32,6 @@ function App() {
         third
         </div>
       </div>
-      
     </div>
     
   );
