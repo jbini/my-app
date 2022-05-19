@@ -56,15 +56,25 @@
 }
 
 .first-div {
-  width: 55%;
+  width: 900px;
   height: 1200px;
   margin-left: 5%;
   border: #ececec solid 50px;
   text-align: left;
   background-color: #ececec;
-  float: left;
+  display: inline-block;
 }
 
 .second-div {
+  margin-left: 50px;
+  border: #2c2c2c solid 50px;
+  width: 400px;
+  height: 500px;
+  background-color: #2c2c2c;
+  display: inline-block;
+
+}
+
+.third-div {
   
 }
