@@ -22,6 +22,7 @@
     animation: App-logo-spin infinite 2s linear;
   }
 }
+
 .mainlogo {
   position: fixed;
   background-color: #282c34;
@@ -30,6 +31,7 @@
   align-items: center;
   float: left;
 }
+
 .App-header {
   margin-left: 80px;
   width: 100%;
@@ -42,8 +44,6 @@
   border-top: #282c34 20px solid;
   font-size: 27px;
   color: white;
-  
-  
 }
 
 .App-link {
@@ -59,10 +59,12 @@
     transform: rotate(360deg);
   }
 }
+
 .first-container {
   min-width: 100%;
   text-align: center;
 }
+
 .first-div {
   background-color: #ececec;
   width: 935px;
@@ -83,13 +85,14 @@
   display: inline-block;
   padding-right: 200px;
   color: #ececec;
-
 }
+
 .second-container {
     margin-top: 15px;
     width: 100%;
     text-align: center;
 }
+
 .third-div {
   background-color: #ececec;
   width: 1650px;
