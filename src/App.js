@@ -4,7 +4,6 @@ import './App.css';
 function App() {
   return (
     <div className="App" >
-      <div className='grayline'></div>
       <div className="mainlogo">
       <img src={logo} className="App-logo" alt="logo"  />
       </div>
@@ -20,13 +19,13 @@ function App() {
       </div>
       <div className='first-container'>
         <div className='first-div'>
-          firstdiv
-
+          first
         </div>
         <div className='second-div'>
           second
         </div>
       </div>
+      <div className='grayline'></div>
       <div className='second-container'>
         <div className='third-div'>
         third
