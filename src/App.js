@@ -18,12 +18,13 @@ function App() {
           jbini React
         </a>
       </div>
-      <div className='grayline'></div>
+      
       <div className='first-div'>
-      1. 터미널에 create-react-app (생성 폴더 이름) 명령어 사용 <br></br>
-      2. 터미널에 cd (생성 폴더 이름) 명령어로 폴더로 들어가기 <br></br>
-      3. ㅌ
+        firstdiv
 
+      </div>
+      <div className='second-div'>
+        second
       </div>
     </div>
     
