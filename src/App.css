@@ -5,6 +5,7 @@
 }
 
 .grayline {
+  position: fixed;
   background-color: gray;
   height: 3px;
 }
@@ -22,15 +23,19 @@
   }
 }
 .mainlogo {
+  position: fixed;
   background-color: #282c34;
-  min-height: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   float: left;
 }
 .App-header {
+  margin-left: 80px;
+  width: 100%;
+  position: fixed;
   background-color: #282c34;
-  min-height: 60px;
+  height: 60px;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -54,27 +59,32 @@
     transform: rotate(360deg);
   }
 }
-
+.first-container {
+  width: 100%;
+  text-align: center;
+}
 .first-div {
+  background-color: #ececec;
   width: 900px;
   height: 1200px;
-  margin-left: 5%;
+  margin-top: 80px;
   border: #ececec solid 50px;
   text-align: left;
-  background-color: #ececec;
   display: inline-block;
 }
 
 .second-div {
-  margin-left: 50px;
-  border: #2c2c2c solid 50px;
+  background-color: #2c2c2c;
   width: 400px;
   height: 500px;
-  background-color: #2c2c2c;
+  margin-left: 50px;
+  border: #2c2c2c solid 50px;
+  text-align: left;
   display: inline-block;
+  padding-right: 200px;
 
 }
 
 .third-div {
-  
+
 }

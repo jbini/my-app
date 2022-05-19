@@ -18,13 +18,17 @@ function App() {
           jbini React
         </a>
       </div>
-      
-      <div className='first-div'>
-        firstdiv
+      <div className='first-container'>
+        <div className='first-div'>
+          firstdiv
 
+        </div>
+        <div className='second-div'>
+          second
+        </div>
       </div>
-      <div className='second-div'>
-        second
+      <div className='third-div'>
+        third
       </div>
     </div>
     
