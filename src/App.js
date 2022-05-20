@@ -25,7 +25,9 @@ function App() {
           second
         </div>
       </div>
-      <div className='grayline'></div>
+      <div className='line-container'>
+        <div className='grayline'></div>
+      </div>
       <div className='second-container'>
         <div className='third-div'>
         third

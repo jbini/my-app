@@ -4,12 +4,18 @@
   background-color: rgb(210, 209, 209);
 }
 
+.line-container {
+  min-width: 100%;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
 .grayline {
   background-color: gray;
   height: 1px;
   margin-top: 15px;
-  border-left: rgb(210, 209, 209) solid 350px;
-  border-right: rgb(210, 209, 209) solid 350px;
+  width: 1750px;
+  display: inline-block;
 }
 
 .App-logo {
