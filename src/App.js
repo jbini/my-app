@@ -33,7 +33,7 @@ function App() {
       </div>
       <div className='footer-container'>
         <div className='footer-div'>
-          asd
+          footer
         </div>
       </div>
     </div>

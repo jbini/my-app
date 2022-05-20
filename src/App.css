@@ -58,6 +58,7 @@
 .first-container {
   min-width: 100%;
   text-align: center;
+  
 }
 .first-div {
   background-color: #ececec;
@@ -95,8 +96,15 @@
 }
 
 .footer-container {
-  background-color: #282c34;
+  background-color: #ececec;
   width: 100%;
   height: 400px;
   margin-top: 200px;
+}
+.footer-div {
+  background-color: #282c34;
+  width: 100%;
+  height: 400px;
+  color: #ececec;
+  border: #282c34 solid 50px;
 }
