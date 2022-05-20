@@ -31,6 +31,11 @@ function App() {
         third
         </div>
       </div>
+      <div className='footer-container'>
+        <div className='footer-div'>
+          asd
+        </div>
+      </div>
     </div>
     
   );
