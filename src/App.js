@@ -4,10 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App" >
-      <div className="mainlogo">
-        <img src={logo} className="App-logo" alt="logo"  />
-      </div>
+      
       <div className="App-header">
+        <img src={logo} className="App-logo" alt="logo"  />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,7 +16,7 @@ function App() {
           jbini React
         </a>
         <div className='nav-container'>
-          
+
         </div>
       </div>
       <div className='first-container'>

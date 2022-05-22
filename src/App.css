@@ -27,26 +27,19 @@
     animation: App-logo-spin infinite 2s linear;
   }
 }
-.mainlogo {
+
+.App-header {
+  width: 100%;
   position: fixed;
   background-color: #282c34;
   height: 80px;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  float: left;
-}
-.App-header {
-  margin-left: 80px;
-  width: 100%;
-  position: fixed;
-  background-color: #282c34;
-  height: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  border-top: #282c34 20px solid;
+  text-align: center;
   font-size: 27px;
   color: white;
+  white-space: nowrap;
 }
 .App-link {
   color: white;
@@ -65,7 +58,7 @@
   background-color: #ececec;
   width: 600px;
   height: 80px;
-  margin-left: 1000px;
+  margin-left: 850px;
 }
 .nav-menu {
 
