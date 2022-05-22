@@ -61,6 +61,19 @@
   }
 }
 
+.nav-container {
+  background-color: #ececec;
+  width: 600px;
+  height: 80px;
+  margin-left: 1000px;
+}
+.nav-menu {
+
+}
+.nav-sub {
+
+}
+
 .first-container {
   min-width: 100%;
   text-align: center;

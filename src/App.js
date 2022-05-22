@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App" >
       <div className="mainlogo">
-      <img src={logo} className="App-logo" alt="logo"  />
+        <img src={logo} className="App-logo" alt="logo"  />
       </div>
       <div className="App-header">
         <a
@@ -16,6 +16,9 @@ function App() {
         >
           jbini React
         </a>
+        <div className='nav-container'>
+          
+        </div>
       </div>
       <div className='first-container'>
         <div className='first-div'>
