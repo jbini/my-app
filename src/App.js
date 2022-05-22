@@ -6,15 +6,17 @@ function App() {
     <div className="App" >
       
       <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo"  />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          jbini React
-        </a>
+        <div className='logo-flex'>
+          <img src={logo} className="App-logo" alt="logo"  />
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            jbini React
+          </a>
+        </div>
         <div className='nav-container'>
 
         </div>
