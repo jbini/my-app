@@ -18,7 +18,17 @@ function App() {
           </a>
         </div>
         <div className='nav-container'>
-
+          <ul>
+              <li><a href="http://localhost:3000/">Home</a></li>
+              <li> <a>Categories</a>
+                  <ul>
+                      <li><a href="#">Category One</a></li>
+                      <li><a href="#">Category Two</a></li>
+                      <li><a href="#">Category Three</a></li>
+                  </ul>
+              </li>
+              <li><a href="#">Contact Us</a></li>
+          </ul>
         </div>
       </div>
       <div className='first-container'>
