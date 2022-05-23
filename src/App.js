@@ -36,9 +36,9 @@ function App() {
       <div className='first-container'>
         <div className='first-div'>
           <div className='first-sl'>
-            <input type="radio" name='slide1' id='firstslide01' checked></input>
-            <input type="radio" name='slide2' id='firstslide02'></input>
-            <input type="radio" name='slide3' id='firstslide03'></input>
+            <input type="radio" name='slide' id='firstslide01' checked></input>
+            <input type="radio" name='slide' id='firstslide02'></input>
+            <input type="radio" name='slide' id='firstslide03'></input>
             <div className='slidewrap1'>
               <ul className='slidelist1'>
                 <li>
