@@ -164,6 +164,14 @@
 .first-slide .first-slide-control .right {right:30px;background:url('./img/right.png') center center / 100% no-repeat;}
 .first-slide .first-slide-control [class*="control"] {display:none;}
 
+.first-slide [id="firstslide01"]:checked ~ .slidewrap1 .slidelist1 > li {transform:translateX(0%);}
+.first-slide [id="firstslide02"]:checked ~ .slidewrap1 .slidelist1 > li {transform:translateX(-100%);}
+.first-slide [id="firstslide03"]:checked ~ .slidewrap1 .slidelist1 > li {transform:translateX(-200%);}
+
+.first-slide [id="firstslide01"]:checked ~ .slidewrap1 .control01 {display:block;}
+.first-slide [id="firstslide02"]:checked ~ .slidewrap1 .control02 {display:block;}
+.first-slide [id="firstslide03"]:checked ~ .slidewrap1 .control03 {display:block;}
+
 .second-div {
   background-color: #696969;
   width: 250px;
