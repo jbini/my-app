@@ -85,7 +85,7 @@
   height: 80px;
 }
 .nav-container ul li:hover {
-  background-color: #ececec;
+  background-color: #d4d4d4;
   color: #282c34;
 }
 .nav-container ul li:hover a {
@@ -120,7 +120,7 @@
   display: block;
 }
 .nav-container ul li ul li a {
-  background-color: #ececec;
+  background-color: #d4d4d4;
   display: block;
   padding: 27px;
 }
