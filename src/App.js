@@ -43,17 +43,17 @@ function App() {
               <ul className='slidelist1'>
                 <li>
                   <a href='http://localhost:3000/'>
-                    <img src='img/slide01.jpg' alt='slide'></img>
+                    <img src='img/slide01.jpg' alt='slide' width={785}></img>
                   </a>
                 </li>
                 <li>
                   <a href='http://localhost:3000/'>
-                    <img src='img/slide02.jpg' alt='slide'></img>
+                    <img src='img/slide02.jpg' alt='slide' width={785}></img>
                   </a>
                 </li>
                 <li>
                   <a href='http://localhost:3000/'>
-                    <img src='img/slide03.jpg' alt='slide'></img>
+                    <img src='img/slide03.jpg' alt='slide' width={785}></img>
                   </a>
                 </li>
               </ul>
