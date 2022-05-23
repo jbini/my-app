@@ -33,6 +33,30 @@ function App() {
       </div>
       <div className='first-container'>
         <div className='first-div'>
+          <div className='first-slide'>
+            <input type="radio" name='slide1' id='firstslide01' checked></input>
+            <input type="radio" name='slide1' id='firstslide02'></input>
+            <input type="radio" name='slide1' id='firstslide03'></input>
+            <div>
+              <ul>
+                <li>
+                  <a href='http://localhost:3000/'>
+                    <img src='./src/img/slide01.jpg'></img>
+                  </a>
+                </li>
+                <li>
+                  <a href='http://localhost:3000/'>
+                    <img src='./img/slide02.jpg'></img>
+                  </a>
+                </li>
+                <li>
+                  <a href='http://localhost:3000/'>
+                    <img src='./img/slide03.jpg'></img>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
           first
         </div>
         <div className='second-div'>
