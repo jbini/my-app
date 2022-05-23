@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+
 function App() {
   return (
     <div className="App" >
@@ -35,23 +37,23 @@ function App() {
         <div className='first-div'>
           <div className='first-slide'>
             <input type="radio" name='slide1' id='firstslide01' checked></input>
-            <input type="radio" name='slide1' id='firstslide02'></input>
-            <input type="radio" name='slide1' id='firstslide03'></input>
+            <input type="radio" name='slide2' id='firstslide02'></input>
+            <input type="radio" name='slide3' id='firstslide03'></input>
             <div className='slidewrap1'>
               <ul className='slidelist1'>
                 <li>
                   <a href='http://localhost:3000/'>
-                    <img src='/src/img/slide01.jpg' alt='slide1'></img>
+                    <img src='img/slide01.jpg' alt='slide1'></img>
                   </a>
                 </li>
                 <li>
                   <a href='http://localhost:3000/'>
-                    <img src='/src/img/slide02.jpg' alt='slide2'></img>
+                    <img src='img/slide02.jpg' alt='slide2'></img>
                   </a>
                 </li>
                 <li>
                   <a href='http://localhost:3000/'>
-                    <img src='/src/img/slide03.jpg' alt='slide3'></img>
+                    <img src='img/slide03.jpg' alt='slide3'></img>
                   </a>
                 </li>
               </ul>
