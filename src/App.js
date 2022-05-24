@@ -35,44 +35,7 @@ function App() {
       </div>
       <div className='first-container'>
         <div className='first-div'>
-          <div className='first-sl'>
-            <input type="radio" name='slide' id='firstslide01' checked></input>
-            <input type="radio" name='slide' id='firstslide02'></input>
-            <input type="radio" name='slide' id='firstslide03'></input>
-            <div className='slidewrap1'>
-              <ul className='slidelist1'>
-                <li>
-                  <a href='http://localhost:3000/'>
-                    <img src='img/slide01.jpg' alt='slide' width={785}></img>
-                  </a>
-                </li>
-                <li>
-                  <a href='http://localhost:3000/'>
-                    <img src='img/slide02.jpg' alt='slide' width={785}></img>
-                  </a>
-                </li>
-                <li>
-                  <a href='http://localhost:3000/'>
-                    <img src='img/slide03.jpg' alt='slide' width={785}></img>
-                  </a>
-                </li>
-              </ul>
-              <div className='first-slide-control'>
-                <div className='control01'>
-                  <label for='firstslide03' className='slide-left'></label>
-                  <label for='firstslide02' className='slide-right'></label>
-                </div>
-                <div className='control02'>
-                  <label for='firstslide01' className='slide-left'></label>
-                  <label for='firstslide03' className='slide-right'></label>
-                </div>
-                <div className='control03'>
-                  <label for='firstslide02' className='slide-left'></label>
-                  <label for='firstslide01' className='slide-right'></label>
-                </div>
-              </div>
-            </div>
-          </div>
+        
           
         </div>
         <div className='second-div'>
