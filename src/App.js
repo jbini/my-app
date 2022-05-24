@@ -49,13 +49,19 @@ function App() {
             <input type='radio' name='slide-radio' id='first-slide-btn3'></input>
             <div className='first-slide'>
               <div className='first-slide-div'>
+                <label for='first-slide-btn3' className='left'></label>
                 <img src='./img/slide01.jpg' alt='slide01'></img>
+                <label for='first-slide-btn2' className='right'></label>
               </div>
               <div className='first-slide-div'>
+                <label for='first-slide-btn1' className='left'></label>
                 <img src='./img/slide02.jpg' alt='slide01'></img>
+                <label for='first-slide-btn3' className='right'></label>
               </div>
               <div className='first-slide-div'>
+                <label for='first-slide-btn2' className='left'></label>
                 <img src='./img/slide03.jpg' alt='slide01'></img>
+                <label for='first-slide-btn1' className='right'></label>
               </div>
             </div>
           </div>

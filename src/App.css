@@ -158,15 +158,22 @@
 .first-slide-btn {
   white-space: normal;
   text-align: center;
+  width: 785px;
+  height: 500px;
 }
 .first-slide-btn input{
   width: 30px;
   height: 15px;
   margin: 5px;
+  display: none;
 }
 #first-slide-btn1:checked ~ .first-slide {transform: translate(-0px);}
 #first-slide-btn2:checked ~ .first-slide {transform: translate(-785px);}
 #first-slide-btn3:checked ~ .first-slide {transform: translate(-1570px);}
+
+.first-slide-div label {position: absolute; z-index:1;transform:translateY(170px);padding:50px;cursor: pointer;}
+.left {left:-20px;background:url('/public/img/left.jpg') center center / 100% no-repeat;} /* LEFT -300px로 화살표가 안보이게 되어있도록 준 스타일 */
+.right {right:-20px;background:url('/public/img/right.jpg') center center / 100% no-repeat;} /* RIGHT -300px로 화살표가 안보이게 되어있도록 준 스타일 */
 
 .first-slide {
   width: 2355px;
@@ -175,7 +182,10 @@
 }
 .first-slide-div {
   width: 785px;
+  height: 441px;
   float: left;
+  overflow: hidden;
+  position: relative;
 }
 .first-slide-div img{
   width: 100%;
@@ -186,7 +196,7 @@
   width: 785px;
   height: 390px;
   white-space: normal;
-  margin-top: 500px;
+  
 }
 
 .second-div {
