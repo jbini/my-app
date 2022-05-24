@@ -153,7 +153,40 @@
   text-align: left;
   display: inline-block;
   overflow: hidden;
+}
+
+.first-slide-btn {
+  white-space: normal;
+  text-align: center;
+}
+.first-slide-btn input{
+  width: 30px;
+  height: 15px;
+  margin: 5px;
+}
+#first-slide-btn1:checked ~ .first-slide {transform: translate(-0px);}
+#first-slide-btn2:checked ~ .first-slide {transform: translate(-785px);}
+#first-slide-btn3:checked ~ .first-slide {transform: translate(-1570px);}
+
+.first-slide {
+  width: 2355px;
   white-space: nowrap;
+  transition: all 0.5s;
+}
+.first-slide-div {
+  width: 785px;
+  float: left;
+}
+.first-slide-div img{
+  width: 100%;
+}
+
+.first-div-list {
+  background-color: #e7e7e7;
+  width: 785px;
+  height: 390px;
+  white-space: normal;
+  margin-top: 500px;
 }
 
 .second-div {

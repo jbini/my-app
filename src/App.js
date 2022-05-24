@@ -1,7 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
-
+// document.querySelector('.first-slide-btn1').addEventListener('click', function(){
+//   document.querySelector('.first-slide').style.transform = 'translate(-0px)';
+// });
+// document.querySelector('.first-slide-btn2').addEventListener('click', function(){
+//   document.querySelector('.first-slide').style.transform = 'translate(-785px)';
+// });
+// document.querySelector('.first-slide-btn3').addEventListener('click', function(){
+//   document.querySelector('.first-slide').style.transform = 'translate(-1570px)';
+// });
 
 function App() {
   return (
@@ -35,8 +43,25 @@ function App() {
       </div>
       <div className='first-container'>
         <div className='first-div'>
-        
-          
+          <div className='first-slide-btn'>
+            <input type='radio' name='slide-radio' id='first-slide-btn1'></input>
+            <input type='radio' name='slide-radio' id='first-slide-btn2'></input>
+            <input type='radio' name='slide-radio' id='first-slide-btn3'></input>
+            <div className='first-slide'>
+              <div className='first-slide-div'>
+                <img src='./img/slide01.jpg' alt='slide01'></img>
+              </div>
+              <div className='first-slide-div'>
+                <img src='./img/slide02.jpg' alt='slide01'></img>
+              </div>
+              <div className='first-slide-div'>
+                <img src='./img/slide03.jpg' alt='slide01'></img>
+              </div>
+            </div>
+          </div>
+          <div className='first-div-list'>
+            first
+          </div>
         </div>
         <div className='second-div'>
           second
@@ -61,4 +86,6 @@ function App() {
     
 }
 
+
 export default App;
+
