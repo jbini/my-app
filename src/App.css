@@ -193,8 +193,9 @@
 
 .first-div-list {
   background-color: #e7e7e7;
-  width: 785px;
-  height: 390px;
+  width: 685px;
+  height: 290px;
+  border: #e7e7e7 solid 50px;
   white-space: normal;
   
 }
