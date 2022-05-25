@@ -171,9 +171,11 @@
 #first-slide-btn2:checked ~ .first-slide {transform: translate(-785px);}
 #first-slide-btn3:checked ~ .first-slide {transform: translate(-1570px);}
 
-.first-slide-div label {position: absolute; z-index:1;transform:translateY(170px);padding:50px;cursor: pointer;}
+.first-slide-div label {position: absolute; z-index:1;transform:translateY(170px);padding:50px;cursor: pointer; display: none;}
 .left {left:-20px;background:url('/public/img/left.jpg') center center / 100% no-repeat;} /* LEFT -300px로 화살표가 안보이게 되어있도록 준 스타일 */
 .right {right:-20px;background:url('/public/img/right.jpg') center center / 100% no-repeat;} /* RIGHT -300px로 화살표가 안보이게 되어있도록 준 스타일 */
+
+.first-slide-btn:hover label {display: inline-block;}
 
 .first-slide {
   width: 2355px;
