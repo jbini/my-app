@@ -29,15 +29,15 @@ function App() {
         </div>
         <div className='nav-container'>
           <ul>
-              <li><a href="http://localhost:3000/">Home</a></li>
-              <li> <a href="http://localhost:3000/">Categories</a>
+              <li><a href="http://localhost:3000/" className='nav-a'>Home</a></li>
+              <li> <a href="http://localhost:3000/" className='nav-a'>Categories</a>
                   <ul>
                       <li><a href="http://localhost:3000/">Category One</a></li>
                       <li><a href="http://localhost:3000/">Category Two</a></li>
                       <li><a href="http://localhost:3000/">Category Three</a></li>
                   </ul>
               </li>
-              <li><a href="http://localhost:3000/">Contact Us</a></li>
+              <li><a href="http://localhost:3000/" className='nav-a'>Contact Us</a></li>
           </ul>
         </div>
       </div>

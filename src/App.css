@@ -90,9 +90,10 @@
   background-color: #d4d4d4;
   color: #282c34;
 }
-.nav-container ul li:hover a {
+.nav-container ul li:hover .nav-a {
   font-size: 19px;
   color: #282c34;
+  
 }
 .nav-container ul li a {
   display: block;
@@ -101,6 +102,7 @@
   font-size: 19px;
   text-decoration: none;
   transition: all .2s;
+  
 }
 .nav-container ul li ul {
   border-bottom: 3px solid #33a9fe;
@@ -117,23 +119,24 @@
   padding-top: 27px;
   width: 200px;
   height: 250px;
-}
-.nav-container ul li ul li {
-  border-top: 1px solid #282c34;
-  height: 80px;
-  display: block;
   
 }
-.nav-container ul li ul li a {
-  background-color: #d4d4d4;
+.nav-container ul li ul li {
+  border-top: 1px solid #ececec;
+  height: 80px;
   display: block;
-  padding: 27px;
 }
-.nav-container ul li ul li:hover a {
+.nav-container ul li ul li a {
   background-color: #282c34;
   display: block;
   padding: 27px;
   color: #ececec;
+}
+.nav-container ul li ul li:hover a {
+  background-color: #d4d4d4;
+  display: block;
+  padding: 27px;
+  color: #282c34;
 }
 
 
@@ -175,7 +178,7 @@
 .left {left:-20px;background:url('/public/img/left.jpg') center center / 100% no-repeat;} /* LEFT -300px로 화살표가 안보이게 되어있도록 준 스타일 */
 .right {right:-20px;background:url('/public/img/right.jpg') center center / 100% no-repeat;} /* RIGHT -300px로 화살표가 안보이게 되어있도록 준 스타일 */
 
-.first-slide-btn:hover label {display: inline-block;}
+.first-slide:hover label {display: inline-block;}
 
 .first-slide {
   width: 2355px;
