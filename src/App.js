@@ -19,7 +19,7 @@ function App() {
           <img src={logo} className="App-logo" alt="logo"  />
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="http://localhost:3000/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -36,7 +36,7 @@ function App() {
                       <li><a href="http://localhost:3000/">Category Three</a></li>
                   </ul>
               </li>
-              <li><a href="http://localhost:3000/" className='nav-a'>Contact Us</a></li>
+              <li><a href="https://reactjs.org" className='nav-a'>Learn React</a></li>
           </ul>
         </div>
       </div>
