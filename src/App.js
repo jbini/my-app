@@ -87,7 +87,13 @@ function App() {
       </div>
       <div className='footer-container'>
         <div className='footer-div'>
-          footer
+          <a href='http://localhost:3000/' className='footer-title'>jbini React</a><br></br>
+          jongbin's React practice page <br></br>
+          test message for check test message for check <br></br>
+          for check test message test message <br></br><br></br>
+          phone : +82) 1233-5567<br></br>
+          email : jbini05@gmail.com<br></br>
+          github : <a href='https://github.com/jbini'>https://github.com/jbini</a>
         </div>
       </div>
     </div>

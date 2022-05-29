@@ -250,11 +250,19 @@
   background-color: #282c34;
   width: 1350px;
   height: 250px;
-  color: #ececec;
+  color: #d4d4d4;
   border: #282c34 solid 50px;
   display: inline-block;
   text-align: left;
   overflow: hidden;
   white-space: nowrap;
+}
+.footer-div a {
+  color: #ececec;
+}
+.footer-title{
+  text-decoration: none;
+  font-size: 35px;
+  color: #ececec;
 }
 
