@@ -69,7 +69,12 @@ function App() {
           </div>
         </div>
         <div className='second-div'>
-          second
+          <div className='first-link-div'></div>
+          <div className='first-link-div'></div>
+          <div className='first-link-div'></div>
+          <div className='first-link-div'></div>
+          <div className='first-link-div'></div>
+          <div className='first-link-div'></div>
         </div>
       </div>
       <div className='line-container'>
