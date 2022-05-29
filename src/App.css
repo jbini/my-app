@@ -268,10 +268,11 @@
 .footer-div-icon {
   background-color: #282c34;
   width: 300px;
-  height: 250px;
+  height: 90px;
   border: #282c34 solid 50px;
+  border-top: #282c34 solid 160px;
   display: inline-block;
   overflow: hidden;
   text-align-last: center;
-  
+  color: #282c34;
 }

@@ -96,9 +96,10 @@ function App() {
           github : <a href='https://github.com/jbini'>https://github.com/jbini</a>  
         </div>
         <div className='footer-div-icon'>
-        <img src='./img/facebook.png' alt='facebook' width={50}></img>
-        <img src='./img/insta.png' alt='insta' width={50}></img>
-        <img src='./img/twitter.png' alt='twitter' width={50}></img>
+        <img src='./img/facebook2.png' alt='facebook' width={50}></img> ..
+        <img src='./img/twitter2.png' alt='twitter' width={50}></img> ..
+        <img src='./img/insta2.png' alt='insta' width={50}></img> 
+        
         </div>
       </div>
     </div>
