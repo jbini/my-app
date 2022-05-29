@@ -248,7 +248,7 @@
 }
 .footer-div {
   background-color: #282c34;
-  width: 1350px;
+  width: 950px;
   height: 250px;
   color: #d4d4d4;
   border: #282c34 solid 50px;
@@ -265,4 +265,13 @@
   font-size: 35px;
   color: #ececec;
 }
-
+.footer-div-icon {
+  background-color: #282c34;
+  width: 300px;
+  height: 250px;
+  border: #282c34 solid 50px;
+  display: inline-block;
+  overflow: hidden;
+  text-align-last: center;
+  
+}
