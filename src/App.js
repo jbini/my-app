@@ -31,7 +31,7 @@ function App() {
               <li><a href="http://localhost:3000/" className='nav-a'>Home</a></li>
               <li> <a href="http://localhost:3000/" className='nav-a'>Categories</a>
                   <ul>
-                      <li><a href="http://localhost:3000/">Category One</a></li>
+                      <li><a href="https://www.facebook.com/profile.php?id=100081338277197">Category One</a></li>
                       <li><a href="http://localhost:3000/">Category Two</a></li>
                       <li><a href="http://localhost:3000/">Category Three</a></li>
                   </ul>
@@ -99,7 +99,7 @@ function App() {
         <img src='./img/facebook2.png' alt='facebook' width={50}></img> ..
         <img src='./img/twitter2.png' alt='twitter' width={50}></img> ..
         <img src='./img/insta2.png' alt='insta' width={50}></img> 
-        
+        <input type='image' href='https://www.facebook.com' src='./img/facebook2.png' alt='facebook' width={50}></input>
         </div>
       </div>
     </div>
