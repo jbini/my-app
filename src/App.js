@@ -20,7 +20,6 @@ function App() {
           <a
             className="App-link"
             href="http://localhost:3000/"
-            target="_blank"
             rel="noopener noreferrer"
           >
             jbini React
@@ -36,7 +35,7 @@ function App() {
                       <li><a href="http://localhost:3000/">Category Three</a></li>
                   </ul>
               </li>
-              <li><a href="https://reactjs.org" className='nav-a'>Learn React</a></li>
+              <li><a href="https://reactjs.org" className='nav-a' target='_blank' rel="noreferrer">Learn React</a></li>
           </ul>
         </div>
       </div>
