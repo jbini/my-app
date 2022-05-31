@@ -99,9 +99,15 @@ function App() {
         {/* <img src='./img/facebook2.png' alt='facebook' width={50}></img> ..
         <img src='./img/twitter2.png' alt='twitter' width={50}></img> ..
         <img src='./img/insta2.png' alt='insta' width={50}></img>  */}
-        <input type='image' href='https://www.facebook.com' src='./img/facebook2.png' alt='facebook' width={50}></input>..
-        <input type='image' href='https://www.facebook.com' src='./img/twitter2.png' alt='twitter' width={50}></input>..
-        <input type='image' href='https://www.facebook.com' src='./img/insta2.png' alt='insta' width={50}></input>
+        <a href='https://www.facebook.com' target='_blank' rel="noreferrer">
+          <input type='image' src='./img/facebook2.png' alt='facebook' width={50}></input>
+        </a>..
+        <a href='https://twitter.com' target='_blank' rel="noreferrer">
+          <input type='image' src='./img/twitter2.png' alt='twitter' width={50}></input>
+        </a>..
+        <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
+          <input type='image' src='./img/insta2.png' alt='insta' width={50}></input>
+        </a>..
         </div>
       </div>
     </div>
