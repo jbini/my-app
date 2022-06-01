@@ -70,11 +70,13 @@ function App() {
         <div className='second-div'>
           <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
             <div className='first-link-div'>
-              <img src='./img/slide.jpg' alt='link-1'></img>
-              <h>asdasdasdasd</h>
+              <div className='first-link-div-img'>
+                <img src='./img/slide.jpg' alt='link-1'></img>
+              </div>
+              <h>a</h>
             </div>
           </a>
-          <div className='first-link-div'>
+          {/* <div className='first-link-div'>
             <img src='./img/slide.jpg' alt='link-2'></img>
           </div>
           <div className='first-link-div'>
@@ -88,7 +90,7 @@ function App() {
           </div>
           <div className='first-link-div'>
             <img src='./img/slide.jpg' alt='link-6'></img>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className='line-container'>

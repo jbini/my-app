@@ -210,27 +210,40 @@
   overflow: hidden;
   white-space: nowrap;
 }
+.second-div a {
+  text-decoration: none;
+  color: #282c34;
+}
+
 .first-link-div {
   background-color: #ececec;
   width: 450px;
   height: 140px;
   margin-bottom: 10px;
   text-align: left;
-  
+  display: block;
 }
 .first-link-div:hover {
   background-color: #ececec;
   width: 449px;
   height: 139px;
+  display: block;
   border-bottom: #cccccc solid 1px;
   border-right: #cccccc solid 1px;
   margin-bottom: 10px;
+  float: left;
   text-align: left;
 }
-.first-link-div img {
+.first-link-div-img {
+  width: 200px;
+  height: 139px;
+  display: inline-block;
+}
+.first-link-div-img img {
   width: 200px;
   height: 139px;
 }
+
 
 /* 두번째 컨테이너 */
 .second-container {
