@@ -79,21 +79,61 @@ function App() {
               </div>
             </div>
           </a>
-          {/* <div className='first-link-div'>
-            <img src='./img/slide.jpg' alt='link-2'></img>
-          </div>
-          <div className='first-link-div'>
-            <img src='./img/slide.jpg' alt='link-3'></img>
-          </div>
-          <div className='first-link-div'>
-            <img src='./img/slide.jpg' alt='link-4'></img>
-          </div>
-          <div className='first-link-div'>
-            <img src='./img/slide.jpg' alt='link-5'></img>
-          </div>
-          <div className='first-link-div'>
-            <img src='./img/slide.jpg' alt='link-6'></img>
-          </div> */}
+          <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
+            <div className='first-link-div'>
+              <div className='first-link-div-img'>
+                <img src='./img/slide.jpg' alt='link-2'></img>
+              </div>
+              <div className='first-link-div-body'>
+                <p className='first-link-div-title'>link-2</p>
+                body body body body body body 
+              </div>
+            </div>
+          </a>
+          <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
+            <div className='first-link-div'>
+              <div className='first-link-div-img'>
+                <img src='./img/slide.jpg' alt='link-3'></img>
+              </div>
+              <div className='first-link-div-body'>
+                <p className='first-link-div-title'>link-3</p>
+                body body body body body body body body body body body body body body body
+              </div>
+            </div>
+          </a>
+          <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
+            <div className='first-link-div'>
+              <div className='first-link-div-img'>
+                <img src='./img/slide.jpg' alt='link-4'></img>
+              </div>
+              <div className='first-link-div-body'>
+                <p className='first-link-div-title'>link-4</p>
+                body body body body body body body body body body 
+              </div>
+            </div>
+          </a>
+          <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
+            <div className='first-link-div'>
+              <div className='first-link-div-img'>
+                <img src='./img/slide.jpg' alt='link-5'></img>
+              </div>
+              <div className='first-link-div-body'>
+                <p className='first-link-div-title'>link-5</p>
+                body body body 
+              </div>
+            </div>
+          </a>
+          <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
+            <div className='first-link-div'>
+              <div className='first-link-div-img'>
+                <img src='./img/slide.jpg' alt='link-6'></img>
+              </div>
+              <div className='first-link-div-body'>
+                <p className='first-link-div-title'>link-6</p>
+                body body body body body body
+              </div>
+            </div>
+          </a>
         </div>
       </div>
       <div className='line-container'>
