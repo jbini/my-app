@@ -218,6 +218,10 @@
   border-right: #cccccc solid 1px;
   margin-bottom: 10px;
 }
+.first-link-div img {
+  width: 200px;
+  height: 139px;
+}
 
 /* 두번째 컨테이너 */
 .second-container {
