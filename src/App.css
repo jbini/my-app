@@ -220,38 +220,49 @@
   width: 450px;
   height: 140px;
   margin-bottom: 10px;
-  text-align: left;
-  display: block;
+  position: relative;
 }
 .first-link-div:hover {
   background-color: #ececec;
   width: 449px;
   height: 139px;
-  display: block;
   border-bottom: #cccccc solid 1px;
   border-right: #cccccc solid 1px;
   margin-bottom: 10px;
-  float: left;
-  text-align: left;
 }
 .first-link-div-img {
   width: 200px;
   height: 139px;
   display: inline-block;
+  position: absolute;
 }
 .first-link-div-img img {
   width: 200px;
   height: 139px;
 }
-
+.first-link-div-body {
+  width: 219px;
+  height: 139px;
+  margin-left: 230px;
+  display: inline-block;
+  position: absolute;
+  text-align: left;
+  white-space: normal;
+  overflow: hidden;
+}
+.first-link-div-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
 
 /* 두번째 컨테이너 */
 .second-container {
-    margin-top: 15px;
-    width: 100%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
   white-space: nowrap;
 }
 .third-div {

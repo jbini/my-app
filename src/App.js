@@ -73,7 +73,10 @@ function App() {
               <div className='first-link-div-img'>
                 <img src='./img/slide.jpg' alt='link-1'></img>
               </div>
-              <h>a</h>
+              <div className='first-link-div-body'>
+                <p className='first-link-div-title'>link-1</p>
+                body body body body body body body body body body body body
+              </div>
             </div>
           </a>
           {/* <div className='first-link-div'>
