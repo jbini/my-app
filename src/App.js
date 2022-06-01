@@ -72,19 +72,19 @@ function App() {
             <img src='./img/slide.jpg' alt='link-1'></img>
           </div>
           <div className='first-link-div'>
-            <img src='./img/slide.jpg' alt='link-1'></img>
+            <img src='./img/slide.jpg' alt='link-2'></img>
           </div>
           <div className='first-link-div'>
-            <img src='./img/slide.jpg' alt='link-1'></img>
+            <img src='./img/slide.jpg' alt='link-3'></img>
           </div>
           <div className='first-link-div'>
-            <img src='./img/slide.jpg' alt='link-1'></img>
+            <img src='./img/slide.jpg' alt='link-4'></img>
           </div>
           <div className='first-link-div'>
-            <img src='./img/slide.jpg' alt='link-1'></img>
+            <img src='./img/slide.jpg' alt='link-5'></img>
           </div>
           <div className='first-link-div'>
-            <img src='./img/slide.jpg' alt='link-1'></img>
+            <img src='./img/slide.jpg' alt='link-6'></img>
           </div>
         </div>
       </div>
