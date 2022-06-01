@@ -104,7 +104,7 @@ function App() {
           for check test message test message <br></br><br></br>
           phone : +82) 1233-5567<br></br>
           email : jbini05@gmail.com<br></br>
-          github : <a href='https://github.com/jbini'>https://github.com/jbini</a>  
+          github : <a href='https://github.com/jbini' target='_blank' rel="noreferrer">https://github.com/jbini</a>  
         </div>
         <div className='footer-div-icon'>
         {/* <img src='./img/facebook2.png' alt='facebook' width={50}></img> ..
