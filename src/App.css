@@ -199,11 +199,11 @@
 }
 /* 오른쪽 div */
 .second-div {
-  background-color: #a4a4a4;
+  background-color: #ececec;
   width: 450px;
   height: 900px;
   margin-left: 15px;
-  border: #a4a4a4 solid 50px;
+  border: #ececec solid 50px;
   text-align: left;
   display: inline-block;
   color: #282c34;
@@ -211,9 +211,11 @@
   white-space: nowrap;
 }
 .first-link-div {
-  background-color: #e7e7e7;
-  width: 450px;
-  height: 140px;
+  background-color: #ececec;
+  width: 449px;
+  height: 139px;
+  border-bottom: #cccccc solid 1px;
+  border-right: #cccccc solid 1px;
   margin-bottom: 10px;
 }
 
