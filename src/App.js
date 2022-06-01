@@ -68,9 +68,12 @@ function App() {
           </div>
         </div>
         <div className='second-div'>
-          <div className='first-link-div'>
-            <img src='./img/slide.jpg' alt='link-1'></img>
-          </div>
+          <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
+            <div className='first-link-div'>
+              <img src='./img/slide.jpg' alt='link-1'></img>
+              <h>asdasdasdasd</h>
+            </div>
+          </a>
           <div className='first-link-div'>
             <img src='./img/slide.jpg' alt='link-2'></img>
           </div>
