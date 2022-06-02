@@ -217,18 +217,20 @@
 
 .first-link-div {
   background-color: #ececec;
-  width: 450px;
+  width: 447px;
   height: 140px;
   margin-bottom: 10px;
   position: relative;
+  margin-left: 3px;
 }
 .first-link-div:hover {
   background-color: #ececec;
-  width: 449px;
+  width: 447px;
   height: 139px;
   border-bottom: #cccccc solid 1px;
   border-right: #cccccc solid 1px;
   margin-bottom: 10px;
+  margin-left: 0px;
 }
 .first-link-div-img {
   width: 200px;
@@ -241,7 +243,7 @@
   height: 139px;
 }
 .first-link-div-body {
-  width: 219px;
+  width: 217px;
   height: 139px;
   margin-left: 230px;
   display: inline-block;
