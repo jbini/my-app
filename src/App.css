@@ -201,9 +201,12 @@
 .second-div {
   background-color: #ececec;
   width: 450px;
-  height: 900px;
+  height: 902px;
   margin-left: 15px;
-  border: #ececec solid 50px;
+  border-top: #ececec solid 48px;
+  border-bottom: #ececec solid 50px;
+  border-left: #ececec solid 50px;
+  border-right: #ececec solid 50px;
   text-align: left;
   display: inline-block;
   color: #282c34;
@@ -215,20 +218,41 @@
   color: #282c34;
 }
 
+.first-link-div1 {
+  background-color: #ececec;
+  width: 448px;
+  height: 140px;
+  margin-bottom: 8px;
+  position: relative;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+.first-link-div1:hover {
+  background-color: #ececec;
+  width: 448px;
+  height: 138px;
+  border-bottom: #cccccc solid 2px;
+  border-right: #cccccc solid 2px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
 .first-link-div {
   background-color: #ececec;
-  width: 447px;
+  width: 448px;
   height: 140px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   position: relative;
-  margin-left: 3px;
+  margin-left: 2px;
+  margin-top: 2px;
 }
 .first-link-div:hover {
   background-color: #ececec;
-  width: 447px;
-  height: 139px;
-  border-bottom: #cccccc solid 1px;
-  border-right: #cccccc solid 1px;
+  width: 448px;
+  height: 138px;
+  border-bottom: #cccccc solid 2px;
+  border-right: #cccccc solid 2px;
+  margin-top: -2px;
   margin-bottom: 10px;
   margin-left: 0px;
 }
@@ -243,7 +267,7 @@
   height: 139px;
 }
 .first-link-div-body {
-  width: 217px;
+  width: 218px;
   height: 139px;
   margin-left: 230px;
   display: inline-block;

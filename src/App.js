@@ -69,13 +69,13 @@ function App() {
         </div>
         <div className='second-div'>
           <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
-            <div className='first-link-div'>
+            <div className='first-link-div1'>
               <div className='first-link-div-img'>
                 <img src='./img/slide.jpg' alt='link-1'></img>
               </div>
               <div className='first-link-div-body'>
                 <p className='first-link-div-title'>link-1</p>
-                body body body body body body body body body body body body
+                this message is test. this message is test. this message is test.
               </div>
             </div>
           </a>
@@ -86,7 +86,7 @@ function App() {
               </div>
               <div className='first-link-div-body'>
                 <p className='first-link-div-title'>link-2</p>
-                body body body body body body 
+                this message is test. check. this message is test.
               </div>
             </div>
           </a>
@@ -97,7 +97,7 @@ function App() {
               </div>
               <div className='first-link-div-body'>
                 <p className='first-link-div-title'>link-3</p>
-                body body body body body body body body body body body body body body body
+                check. this message is test. check. this message is test.
               </div>
             </div>
           </a>
@@ -108,7 +108,7 @@ function App() {
               </div>
               <div className='first-link-div-body'>
                 <p className='first-link-div-title'>link-4</p>
-                body body body body body body body body body body 
+                check. this message is test. this message is test. check. 
               </div>
             </div>
           </a>
@@ -119,7 +119,7 @@ function App() {
               </div>
               <div className='first-link-div-body'>
                 <p className='first-link-div-title'>link-5</p>
-                body body body 
+                check. check. check. 
               </div>
             </div>
           </a>
@@ -130,7 +130,7 @@ function App() {
               </div>
               <div className='first-link-div-body'>
                 <p className='first-link-div-title'>link-6</p>
-                body body body body body body
+                message message test. test. test. 
               </div>
             </div>
           </a>
