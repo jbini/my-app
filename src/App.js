@@ -30,7 +30,7 @@ function App() {
               <li><a href="http://localhost:3000/" className='nav-a'>Home</a></li>
               <li> <a href="http://localhost:3000/" className='nav-a'>Categories</a>
                   <ul>
-                      <li><a href="https://www.facebook.com/profile.php?id=100081338277197">Category One</a></li>
+                      <li><a href="https://www.facebook.com/profile.php?id=100081338277197" target='_blank' rel="noreferrer">Category One</a></li>
                       <li><a href="http://localhost:3000/">Category Two</a></li>
                       <li><a href="http://localhost:3000/">Category Three</a></li>
                   </ul>
@@ -154,19 +154,24 @@ function App() {
           email : jbini05@gmail.com<br></br>
           github : <a href='https://github.com/jbini' target='_blank' rel="noreferrer">https://github.com/jbini</a>  
         </div>
+        <div className='footer-div-menu1'>
+          <p>Categories</p>
+          <a>1</a><a>2</a><a>3</a>
+        </div>
+        <div className='footer-div-menu2'>
+          <p>Categories</p>
+          <a>1</a><a>2</a><a>3</a>
+        </div>
         <div className='footer-div-icon'>
-        {/* <img src='./img/facebook2.png' alt='facebook' width={50}></img> ..
-        <img src='./img/twitter2.png' alt='twitter' width={50}></img> ..
-        <img src='./img/insta2.png' alt='insta' width={50}></img>  */}
-        <a href='https://www.facebook.com' target='_blank' rel="noreferrer">
-          <input type='image' src='./img/facebook2.png' alt='facebook' width={50}></input>
-        </a>..
-        <a href='https://twitter.com' target='_blank' rel="noreferrer">
-          <input type='image' src='./img/twitter2.png' alt='twitter' width={50}></input>
-        </a>..
-        <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
-          <input type='image' src='./img/insta2.png' alt='insta' width={50}></input>
-        </a>..
+          <a href='https://www.facebook.com' target='_blank' rel="noreferrer">
+            <input type='image' src='./img/facebook2.png' alt='facebook' width={50}></input>
+          </a>
+          <a href='https://twitter.com' target='_blank' rel="noreferrer">
+            <input type='image' src='./img/twitter2.png' alt='twitter' width={50}></input>
+          </a>
+          <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
+            <input type='image' src='./img/insta2.png' alt='insta' width={50}></input>
+          </a>
         </div>
       </div>
     </div>
