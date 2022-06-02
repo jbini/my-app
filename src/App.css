@@ -317,7 +317,7 @@
 }
 .footer-div {
   background-color: #282c34;
-  width: 390px;
+  width: 370px;
   height: 250px;
   color: #d4d4d4;
   border: #282c34 solid 50px;
@@ -337,9 +337,10 @@
 }
 .footer-div-menu1 {
   background-color: #282c34;
-  width: 180px;
+  width: 185px;
   height: 250px;
-  border: #282c34 solid 50px;
+  border-top: #282c34 solid 50px;
+  border-bottom: #282c34 solid 50px;
   color: #d4d4d4;
   text-align: center;
   display: inline-block;
@@ -347,33 +348,54 @@
 }
 .footer-div-menu2 {
   background-color: #282c34;
-  width: 180px;
+  width: 185px;
   height: 250px;
-  border: #282c34 solid 50px;
+  border-top: #282c34 solid 50px;
+  border-bottom: #282c34 solid 50px;
   color: #d4d4d4;
   text-align: center;
   display: inline-block;
   overflow: hidden;
 }
-.footer-div-menu1 p {
+.footer-div-menu1 h2 {
   font-size: 20px;
   font-weight: bold;
   margin-top: 0;
+  margin-bottom: 28px;
+}
+.footer-div-menu1 p {
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+.footer-div-menu2 h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 28px;
 }
 .footer-div-menu2 p {
-  font-size: 20px;
-  font-weight: bold;
   margin-top: 0;
+  margin-bottom: 18px;
+}
+.footer-div-menu1 a {
+  text-decoration: none;
+  color: #969696;
+  font-size: 18px;
+}
+.footer-div-menu2 a {
+  text-decoration: none;
+  color: #969696;
+  font-size: 18px;
 }
 .footer-div-icon {
   background-color: #282c34;
-  width: 300px;
+  width: 510px;
   height: 90px;
   border: #282c34 solid 50px;
   border-top: #282c34 solid 160px;
   display: inline-block;
   overflow: hidden;
-  text-align-last: center;
+  text-align-last: right;
   color: #282c34;
 }
 .footer-div-icon a{
