@@ -141,7 +141,38 @@ function App() {
       </div>
       <div className='second-container'>
         <div className='third-div'>
-        third
+          <div className='third-div-box'>
+            <h1>Think</h1>
+            <div className='third-div-box-circle1'></div>
+            <div className='third-div-box-line'></div>
+            <p>test message</p>
+            <p>what? why where</p>
+            <p>check check check</p>
+            <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
+              <div className='third-div-box-button'>Get in!</div>
+            </a>
+          </div>
+          <div className='third-div-box2'>
+            <h1>About</h1>
+            <div className='third-div-box-circle2'></div>
+            <div className='third-div-box-line'></div>
+            <p>what? why where</p>
+            <p>check check check</p>
+            <p>test message</p>
+            <p>another way</p>
+            <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
+              <div className='third-div-box-button'>Get in!</div>
+            </a>
+          </div>
+          <div className='third-div-box2'>
+            <h1>Self</h1>
+            <div className='third-div-box-circle3'></div>
+            <div className='third-div-box-line'></div>
+            <p>remember</p>
+            <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
+              <div className='third-div-box-button'>Get in!</div>
+            </a>
+          </div>
         </div>
       </div>
       <div className='footer-container'>
@@ -163,7 +194,7 @@ function App() {
         </div>
         <div className='footer-div-menu2'>
           <h2>Menu2</h2>
-          <a href='https://github.com/jbini' target='_blank' rel="noreferrer">Is that link5</a>
+          <a href='https://github.com/jbini' target='_blank' rel="noreferrer">Is that link5?</a>
           <p></p><a href='https://github.com/jbini' target='_blank' rel="noreferrer">Yes link6</a>
           <p></p><a href='https://github.com/jbini' target='_blank' rel="noreferrer">Thanks link7</a>
         </div>
