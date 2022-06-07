@@ -1,8 +1,8 @@
 import './App.css';
-import AppHeaders from './Appheader';
-import FirstContainer from './FirstContainer';
-import Footer from './Footer';
-import SecondContainer from './SecondContainer';
+import AppHeaders from './component/Appheader';
+import FirstContainer from './component/FirstContainer';
+import Footer from './component/Footer';
+import SecondContainer from './component/SecondContainer';
 
 
 export default function App() {
@@ -14,6 +14,7 @@ export default function App() {
         <div className='grayline'></div>
       </div>
       <SecondContainer />
+      
       <Footer />
     </div>
   );

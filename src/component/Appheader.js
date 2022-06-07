@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './Appheader.css';
+import logo from '../logo.svg';
+import '../css/Appheader.css';
 
 export default function AppHeaders() {
     return (
