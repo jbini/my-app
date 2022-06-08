@@ -1,6 +1,9 @@
 import '../css/FirstContainer.css';
 
 export default function FirstContainer() {
+  
+
+
     return(
         <div className='first-container'>
         <div className='first-div'>
@@ -27,7 +30,9 @@ export default function FirstContainer() {
             </div>
           </div>
           <div className='first-div-list'>
-            first
+          
+              <div className='third-div-box-button' id='first-window'>first</div>
+            
           </div>
         </div>
         <div className='second-div'>
