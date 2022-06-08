@@ -2,8 +2,14 @@ import '../css/FirstContainer.css';
 
 export default function FirstContainer() {
   
-
-
+  window.onload = function () {
+    var fw = document.getElementById("first-window");
+    fw.onclick = firstWindow;
+  }
+  function firstWindow() {
+    alert("first window open");
+  };
+  
     return(
         <div className='first-container'>
         <div className='first-div'>

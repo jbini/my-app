@@ -7,14 +7,6 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 export default function App() {
   
-  window.onload = function () {
-    var fw = document.getElementById("first-window");
-    fw.onclick = firstWindow;
-  }
-  function firstWindow() {
-    alert("first window open");
-  };
-  
   return (
     <BrowserRouter>
       <div className="App" >
