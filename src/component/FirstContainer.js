@@ -5,9 +5,9 @@ export default function FirstContainer() {
   //   var fw = document.getElementById("first-window");
   //   fw.onclick = firstWindow;
   // }
-  // function firstWindow() {
-  //   alert("first window open");
-  // };
+  function firstWindow() {
+    alert("first window open");
+  };
   
 
     return(
@@ -36,7 +36,7 @@ export default function FirstContainer() {
             </div>
           </div>
           <div className='first-div-list'>
-          <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
+          <a onClick={() => firstWindow()}>
               <div className='third-div-box-button'>first</div>
             </a>
           </div>
