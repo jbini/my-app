@@ -7,13 +7,16 @@ export default function FirstContainer() {
   // }
   let firstFunction = (name, age) => name, age;
 
-  const firstData = {
+  let FirstData = {
     name: "jbini",
     age: 27
   };
+  // for(key in FirstData){
+  //   console.log(FirstData[key])
+  // }
 
   function firstWindow() {
-    alert(firstFunction(firstData));
+    alert(firstFunction(FirstData));
   };
   
 
