@@ -5,20 +5,16 @@ export default function FirstContainer() {
   //   var fw = document.getElementById("first-window");
   //   fw.onclick = firstWindow;
   // }
-  let firstFunction = (name, age) => name, age;
-
-  let FirstData = {
-    name: "jbini",
-    age: 27
+  function firstFunction(fname, fage) {
   };
-  // for(key in FirstData){
-  //   console.log(FirstData[key])
-  // }
 
+  const FirstData = {
+    fname: "jbini",
+    fage: 27
+  };
   function firstWindow() {
-    alert(firstFunction(FirstData));
+    alert(FirstData.fname+" "+FirstData.fage);
   };
-  
 
     return(
         <div className='first-container'>
