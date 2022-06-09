@@ -5,8 +5,15 @@ export default function FirstContainer() {
   //   var fw = document.getElementById("first-window");
   //   fw.onclick = firstWindow;
   // }
+  let firstFunction = (name, age) => name, age;
+
+  const firstData = {
+    name: "jbini",
+    age: 27
+  };
+
   function firstWindow() {
-    alert("first window open");
+    alert(firstFunction(firstData));
   };
   
 
