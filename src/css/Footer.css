@@ -7,6 +7,8 @@
     text-align: center;
     overflow: hidden;
     white-space: nowrap;
+    position: sticky;
+    top: 2200px;
   }
   .footer-div {
     background-color: #282c34;

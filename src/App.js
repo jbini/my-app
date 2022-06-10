@@ -3,7 +3,10 @@ import AppHeaders from './component/Appheader';
 import FirstContainer from './component/FirstContainer';
 import Footer from './component/Footer';
 import SecondContainer from './component/SecondContainer';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import GrayLine from './component/GrayLine';
+import Home from './Home';
+import CategoryOne from './CategoryOne';
 
 export default function App() {
   
@@ -11,11 +14,10 @@ export default function App() {
     <BrowserRouter>
       <div className="App" >
         <AppHeaders />
-          <FirstContainer />
-          <div className='line-container'>
-            <div className='grayline'></div>
-          </div>
-          <SecondContainer />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='categoryone/' element={<CategoryOne />} />
+        </Routes>
         <Footer />
       </div>
     </BrowserRouter>

@@ -19,7 +19,7 @@ export default function AppHeaders() {
                 <li><a href="http://localhost:3000/" className='nav-a'>Home</a></li>
                 <li> <a href="http://localhost:3000/" className='nav-a'>Categories</a>
                     <ul>
-                        <li><a href='CategoryOne.js'>Category One</a></li>
+                        <li><a href='CategoryOne'>Category One</a></li>
                         <li><a href="http://localhost:3000/">Category Two</a></li>
                         <li><a href="http://localhost:3000/">Category Three</a></li>
                     </ul>

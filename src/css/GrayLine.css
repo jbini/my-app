@@ -1,0 +1,14 @@
+ /* 라인 장식 */
+ .line-container {
+    min-width: 100%;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .grayline {
+    background-color: gray;
+    height: 1px;
+    margin-top: 15px;
+    width: 1450px;
+    display: inline-block;
+  }
