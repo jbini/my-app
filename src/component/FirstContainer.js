@@ -6,6 +6,10 @@ export default function FirstContainer() {
   //   fw.onclick = firstWindow;
   // }
   function firstFunction(fname, fage) {
+    return (
+      fname=fname,
+      fage=fage
+    )
   };
 
   const FirstData = {
@@ -13,7 +17,9 @@ export default function FirstContainer() {
     fage: 27
   };
   function firstWindow() {
-    alert(FirstData.fname+" "+FirstData.fage);
+    return (
+      alert(firstFunction(FirstData))
+    )
   };
 
     return(

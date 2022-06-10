@@ -11,13 +11,11 @@ export default function App() {
     <BrowserRouter>
       <div className="App" >
         <AppHeaders />
-        
           <FirstContainer />
           <div className='line-container'>
             <div className='grayline'></div>
           </div>
           <SecondContainer />
-        
         <Footer />
       </div>
     </BrowserRouter>
