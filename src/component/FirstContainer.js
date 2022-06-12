@@ -1,10 +1,14 @@
+import { useState } from 'react';
 import '../css/FirstContainer.css';
+
 
 export default function FirstContainer() {
   // window.onload = function () {
   //   var fw = document.getElementById("first-window");
   //   fw.onclick = firstWindow;
   // }
+  let [btnName,btnNameChange] = useState(['jbini','jha']);
+
   function firstFunction(fname, fage) {
     return (
       fname=fname,
@@ -18,9 +22,10 @@ export default function FirstContainer() {
   };
   function firstWindow() {
     return (
-      alert(firstFunction(FirstData))
+      alert(btnName[0])
     )
   };
+  
 
     return(
         <div className='first-container'>
@@ -48,8 +53,11 @@ export default function FirstContainer() {
             </div>
           </div>
           <div className='first-div-list'>
-          <a onClick={() => firstWindow()}>
-              <div className='third-div-box-button'>first</div>
+            <a onClick={() => firstWindow()}>
+              <div className='third-div-box-button'>{btnName[0]}</div>
+            </a>
+            <a onClick={() => firstWindow()}>
+              <div className='third-div-box-button'>{btnName[1]}</div>
             </a>
           </div>
         </div>
