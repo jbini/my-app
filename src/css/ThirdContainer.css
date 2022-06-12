@@ -42,7 +42,7 @@
     display: inline-block;
 }
 .gallery-div-pic-div {
-    background-color: #85dff5;
+    background-color: #b1e2ee;
     width: 900px;
     height: 600px;
     display: inline-block;
@@ -53,9 +53,9 @@
     transition: 0.3s;
 }
 .gallery-div-pic1 {
-    background-color: #5ac3dd;
-    background-image: url(/public/img/felix.png);
-    background-size: 160px;
+    background-color: #82d2e6;
+    background-image: url(/public/img/tom1.png);
+    background-size: 200px;
     background-position: center;
     background-repeat: no-repeat;
     width: 50px;
@@ -68,9 +68,9 @@
 }
 .gallery-div-pic1:hover {width: 750px;}
 .gallery-div-pic2 {
-    background-color: #3e8496;
-    background-image: url(/public/img/felix.png);
-    background-size: 160px;
+    background-color: #60c8e2;
+    background-image: url(/public/img/tom2.png);
+    background-size: 350px;
     background-position: center;
     background-repeat: no-repeat;
     width: 50px;
@@ -83,9 +83,9 @@
 }
 .gallery-div-pic2:hover {width: 750px;}
 .gallery-div-pic3 {
-    background-color: #2c6370;
-    background-image: url(/public/img/felix.png);
-    background-size: 160px;
+    background-color: #2eacc9;
+    background-image: url(/public/img/tom3.png);
+    background-size: 150px;
     background-position: center;
     background-repeat: no-repeat;
     width: 50px;
@@ -98,9 +98,9 @@
 }
 .gallery-div-pic3:hover {width: 750px;}
 .gallery-div-pic4 {
-    background-color: #1b3c44;
-    background-image: url(/public/img/felix.png);
-    background-size: 160px;
+    background-color: #1596b3;
+    background-image: url(/public/img/tom5.png);
+    background-size: 200px;
     background-position: center;
     background-repeat: no-repeat;
     width: 40px;
