@@ -22,7 +22,7 @@ export default function SecondContainer() {
             <p>what? why where</p>
             <p>check check check</p>
             <p>test message</p>
-            <p>another way</p>
+            <p>right way</p>
             <a href='https://github.com/jbini' target='_blank' rel="noreferrer">
               <div className='third-div-box-button'>Get in!</div>
             </a>
