@@ -1,10 +1,7 @@
 import './App.css';
 import AppHeaders from './component/Appheader';
-import FirstContainer from './component/FirstContainer';
 import Footer from './component/Footer';
-import SecondContainer from './component/SecondContainer';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import GrayLine from './component/GrayLine';
 import Home from './Home';
 import CategoryOne from './CategoryOne';
 
