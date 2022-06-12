@@ -43,6 +43,11 @@
 }
 .gallery-div-pic-div {
     background-color: #b1e2ee;
+    background-image: url(/public/img/tom0.png);
+    background-size: 400px;
+    background-position-y: 200px;
+    background-position-x: 175px;
+    background-repeat: no-repeat;
     width: 900px;
     height: 600px;
     display: inline-block;
@@ -50,7 +55,7 @@
     white-space: normal;
     overflow: hidden;
     z-index: 1;
-    transition: 0.3s;
+    transition: 0.7s;
 }
 .gallery-div-pic1 {
     background-color: #82d2e6;
@@ -64,7 +69,7 @@
     text-align: right;
     white-space: normal;
     z-index: 2;
-    transition: 0.3s;
+    transition: 0.7s;
 }
 .gallery-div-pic1:hover {width: 750px;}
 .gallery-div-pic2 {
@@ -79,7 +84,7 @@
     text-align: right;
     white-space: normal;
     z-index: 3;
-    transition: 0.3s;
+    transition: 0.7s;
 }
 .gallery-div-pic2:hover {width: 750px;}
 .gallery-div-pic3 {
@@ -94,7 +99,7 @@
     text-align: right;
     white-space: normal;
     z-index: 4;
-    transition: 0.3s;
+    transition: 0.7s;
 }
 .gallery-div-pic3:hover {width: 750px;}
 .gallery-div-pic4 {
@@ -109,6 +114,6 @@
     text-align: right;
     white-space: normal;
     z-index: 5;
-    transition: 0.3s;
+    transition: 0.7s;
 }
 .gallery-div-pic4:hover {width: 740px;}
