@@ -8,7 +8,7 @@ export default function AppHeaders() {
             <img src={logo} className="App-logo" alt="logo"  />
             <a
                 className="App-link"
-                href="http://localhost:3000/"
+                href='/'
                 rel="noopener noreferrer"
             >
                 jbini React
@@ -16,11 +16,11 @@ export default function AppHeaders() {
             </div>
             <div className='nav-container'>
             <ul>
-                <li><a href="http://localhost:3000/" className='nav-a'>Home</a></li>
-                <li> <a href="http://localhost:3000/" className='nav-a'>Categories</a>
+                <li><a href="/" className='nav-a'>Home</a></li>
+                <li> <a href="/" className='nav-a'>Categories</a>
                     <ul>
-                        <li><a href='CategoryOne'>Category One</a></li>
-                        <li><a href="http://localhost:3000/">Category Two</a></li>
+                        <li><a href='/categoryone'>Category One</a></li>
+                        <li><a href='categorytwo'>Category Two</a></li>
                         <li><a href="http://localhost:3000/">Category Three</a></li>
                     </ul>
                 </li>
