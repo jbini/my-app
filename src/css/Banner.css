@@ -1,0 +1,54 @@
+.banner-container {
+    min-width: 100%;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  /* 왼쪽 div */
+  .banner-div {
+    background-color: #ececec;
+    width: 1350px;
+    height: 770px;
+    margin-top: 80px;
+    border: #ececec solid 50px;
+    text-align: left;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .banner-btn {
+    white-space: normal;
+    text-align: center;
+    width: 1350px;
+    height: 500px;
+  }
+  .banner-btn input{
+    width: 30px;
+    height: 15px;
+    margin: 5px;
+    display: none;
+  }
+  #banner-btn1:checked ~ .banner-slide {transform: translate(0px);}
+  #banner-btn2:checked ~ .banner-slide {transform: translate(-1350px);}
+  #banner-btn3:checked ~ .banner-slide {transform: translate(-2700px);}
+  
+  .banner-slide-div label {position: absolute; z-index:1;transform:translateY(320px);padding:50px;cursor: pointer; display: none;}
+  .left {left:-20px;background:url('/public/img/left.jpg') center center / 100% no-repeat;}
+  .right {right:-20px;background:url('/public/img/right.jpg') center center / 100% no-repeat;}
+  
+  .banner-slide:hover label {display: inline-block;}
+  
+  .banner-slide {
+    width: 4050px;
+    white-space: nowrap;
+    transition: all 0.5s;
+  }
+  .banner-slide-div {
+    width: 1350px;
+    height: 758px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+  }
+  .banner-slide-div img{
+    width: 100%;
+  }
