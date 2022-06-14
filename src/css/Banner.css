@@ -48,7 +48,41 @@
     float: left;
     overflow: hidden;
     position: relative;
+    text-align: center;
   }
   .banner-slide-div img{
     width: 100%;
+  }
+  .banner-link-div {
+    width: 600px;
+    height: 40px;
+    position: absolute;
+    top: 700px;
+    left: 375px;
+    text-align: center;
+    z-index: 10;
+  }
+  .banner-link-div a {
+    color: #757575;
+    text-decoration: none;
+    border-bottom: #757575 solid 3px;
+  }
+  .banner-link {
+    width: 100px;
+    height: 30px;
+    margin-left: 23px;
+    margin-right: 23px;
+    display: inline-block;
+    text-align: center;
+  }
+  .banner-link:hover {
+    border-left: #ececec solid 1px;
+    border-right: #ececec solid 1px;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+  .banner-link:hover a{
+    color: #ececec;
+    text-decoration: none;
+    border-bottom: #ececec solid 3px;
   }
