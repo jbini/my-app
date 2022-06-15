@@ -25,6 +25,7 @@
     text-align: center;
     display: inline-block;
 }
+.filterlist-filter a {font-weight: 500;}
 
 .filterlist-div {
     background-color: #ececec;

@@ -5,19 +5,19 @@ export default function FilterList() {
         <div className='filterlist-container'>
             <div className='filterlist-filter-div'>
                 <div className='filterlist-filter'>
-                    <a>a</a>
+                    <a>ALL</a>
                 </div>
                 <div className='filterlist-filter'>
-                    <a>a</a>
+                    <a>sec1</a>
                 </div>
                 <div className='filterlist-filter'>
-                    <a>a</a>
+                    <a>sec2</a>
                 </div>
                 <div className='filterlist-filter'>
-                    <a>a</a>
+                    <a>sec3</a>
                 </div>
                 <div className='filterlist-filter'>
-                    <a>a</a>
+                    <a>sec4</a>
                 </div>
             </div>
             <div className='filterlist-div'>
