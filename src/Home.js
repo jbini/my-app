@@ -5,6 +5,8 @@ import GrayLine from './component/GrayLine';
 import ThirdContainer from './component/ThirdContainer';
 import Banner from './component/Banner';
 import FilterList from './component/FilterList';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import FilterListBlue from './component/FilterListBlue';
 
 export default function Home() {
   
@@ -12,7 +14,10 @@ export default function Home() {
       <div>
         <Banner />
         <GrayLine />
-        <FilterList />
+        <Routes>
+        <Route path='/' element={<FilterList />} />
+        <Route path='/blue' element={<FilterListBlue />} />
+        </Routes>
         <GrayLine />
         <ThirdContainer />
         <GrayLine />
