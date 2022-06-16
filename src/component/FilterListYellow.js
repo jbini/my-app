@@ -57,20 +57,6 @@ export default function FilterListYellow() {
                         <p>test test message test message test message test message message message message message message</p>
                     </div>
                 </div>
-                <div className='filterlist-list'>
-                    <div className='filterlist-list-img-div-yellow'></div>
-                    <div className='filterlist-list-sub-div'>
-                        <h2>This is Title</h2>
-                        <p>test test message test test message message message message message</p>
-                    </div>
-                    </div>
-                <div className='filterlist-list'>
-                    <div className='filterlist-list-img-div-yellow'></div>
-                    <div className='filterlist-list-sub-div'>
-                        <h2>This is Title</h2>
-                        <p>test test</p>
-                    </div>
-                    </div>
             </div>
         </div>
     );

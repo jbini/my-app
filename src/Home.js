@@ -5,7 +5,7 @@ import GrayLine from './component/GrayLine';
 import ThirdContainer from './component/ThirdContainer';
 import Banner from './component/Banner';
 import FilterList from './component/FilterList';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import FilterListBlue from './component/FilterListBlue';
 import FilterListRed from './component/FilterListRed';
 import FilterListYellow from './component/FilterListYellow';

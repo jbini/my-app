@@ -64,13 +64,6 @@ export default function FilterListGreen() {
                         <p>test test message test test message test test test</p>
                     </div>
                 </div>
-                <div className='filterlist-list'>
-                <div className='filterlist-list-img-div-green'></div>
-                    <div className='filterlist-list-sub-div'>
-                        <h2>This is Title</h2>
-                        <p>test test message test message test message test message message message message message message message test test test</p>
-                    </div>
-                </div>
             </div>
         </div>
     );

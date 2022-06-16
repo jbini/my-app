@@ -43,34 +43,6 @@ export default function FilterListRed() {
                         <p>test message test  message test message test message test message test message</p>
                     </div>
                 </div>
-                <div className='filterlist-list'>
-                    <div className='filterlist-list-img-div-red'></div>
-                    <div className='filterlist-list-sub-div'>
-                        <h2>This is Title</h2>
-                        <p>test message message message</p>
-                    </div>
-                </div>
-                <div className='filterlist-list1'>
-                <div className='filterlist-list-img-div-red'></div>
-                    <div className='filterlist-list-sub-div'>
-                        <h2>This is Title</h2>
-                        <p>test test message test  test message</p>
-                    </div>
-                </div>
-                <div className='filterlist-list'>
-                <div className='filterlist-list-img-div-red'></div>
-                    <div className='filterlist-list-sub-div'>
-                        <h2>This is Title</h2>
-                        <p>test test message test test message test test</p>
-                    </div>
-                </div>
-                <div className='filterlist-list'>
-                <div className='filterlist-list-img-div-red'></div>
-                    <div className='filterlist-list-sub-div'>
-                        <h2>This is Title</h2>
-                        <p> message message</p>
-                    </div>
-                </div>
             </div>
         </div>
     );
