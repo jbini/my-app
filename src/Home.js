@@ -7,6 +7,9 @@ import Banner from './component/Banner';
 import FilterList from './component/FilterList';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import FilterListBlue from './component/FilterListBlue';
+import FilterListRed from './component/FilterListRed';
+import FilterListYellow from './component/FilterListYellow';
+import FilterListGreen from './component/FilterListGreen';
 
 export default function Home() {
   
@@ -17,6 +20,9 @@ export default function Home() {
         <Routes>
         <Route path='/' element={<FilterList />} />
         <Route path='/blue' element={<FilterListBlue />} />
+        <Route path='/red' element={<FilterListRed />} />
+        <Route path='/yellow' element={<FilterListYellow />} />
+        <Route path='/green' element={<FilterListGreen />} />
         </Routes>
         <GrayLine />
         <ThirdContainer />

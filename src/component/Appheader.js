@@ -1,26 +1,27 @@
 import logo from '../logo.svg';
 import '../css/Appheader.css';
+import { Link } from 'react-router-dom';
 
 export default function AppHeaders() {
     return (
         <div className="App-header">
             <div className='logo-flex'>
             <img src={logo} className="App-logo" alt="logo"  />
-            <a
+            <Link
                 className="App-link"
-                href='/'
+                to='/'
                 rel="noopener noreferrer"
             >
                 jbini React
-            </a>
+            </Link>
             </div>
             <div className='nav-container'>
             <ul>
-                <li><a href="/" className='nav-a'>Home</a></li>
-                <li> <a href="/" className='nav-a'>Categories</a>
+                <li><Link to="/" className='nav-a'>Home</Link></li>
+                <li> <Link to="/" className='nav-a'>Categories</Link>
                     <ul>
-                        <li><a href='/categoryone'>Category One</a></li>
-                        <li><a href='/categorytwo'>Category Two</a></li>
+                        <li><Link to='/categoryone'>Category One</Link></li>
+                        <li><Link to='/categorytwo'>Category Two</Link></li>
                         <li><a href="http://localhost:3000/">Category Three</a></li>
                     </ul>
                 </li>

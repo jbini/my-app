@@ -1,11 +1,11 @@
 import '../css/FilterList.css'
 import { Link } from 'react-router-dom';
 
-export default function FilterList() {
+export default function FilterListGreen() {
     return(
         <div className='filterlist-container'>
             <div className='filterlist-filter-div'>
-                <div className='filterlist-filter-check'>
+                <div className='filterlist-filter'>
                     <Link to='/'>Gray</Link>
                 </div>
                 <div className='filterlist-filter'>
@@ -17,58 +17,58 @@ export default function FilterList() {
                 <div className='filterlist-filter'>
                     <Link to='/yellow'>Yellow</Link>
                 </div>
-                <div className='filterlist-filter'>
+                <div className='filterlist-filter-check'>
                     <Link to='/green'>Green</Link>
                 </div>
             </div>
             <div className='filterlist-div'>
                 <div className='filterlist-list1'>
-                    <div className='filterlist-list-img-div-gray'></div>
+                    <div className='filterlist-list-img-div-green'></div>
                     <div className='filterlist-list-sub-div'>
                         <h2>This is Title</h2>
-                        <p>test message test message test message test message</p>
+                        <p>test message test message test message</p>
                     </div>
                 </div>
                 <div className='filterlist-list'>
-                <div className='filterlist-list-img-div-gray'></div>
+                <div className='filterlist-list-img-div-green'></div>
                     <div className='filterlist-list-sub-div'>
                         <h2>This is Title</h2>
-                        <p>test</p>
+                        <p>test test test test</p>
                     </div>
                 </div>
                 <div className='filterlist-list'>
-                <div className='filterlist-list-img-div-gray'></div>
+                <div className='filterlist-list-img-div-green'></div>
                     <div className='filterlist-list-sub-div'>
                         <h2>This is Title</h2>
-                        <p>test message test message test message test message test message test message test message test message</p>
+                        <p>test message test message test message test message test message</p>
                     </div>
                 </div>
                 <div className='filterlist-list'>
-                    <div className='filterlist-list-img-div-gray'></div>
+                    <div className='filterlist-list-img-div-green'></div>
                     <div className='filterlist-list-sub-div'>
                         <h2>This is Title</h2>
-                        <p>test</p>
+                        <p>test test test test test test test</p>
                     </div>
                 </div>
                 <div className='filterlist-list1'>
-                <div className='filterlist-list-img-div-gray'></div>
+                <div className='filterlist-list-img-div-green'></div>
                     <div className='filterlist-list-sub-div'>
                         <h2>This is Title</h2>
-                        <p>test test message test message test message test message</p>
+                        <p>test test message test message test message</p>
                     </div>
                 </div>
                 <div className='filterlist-list'>
-                <div className='filterlist-list-img-div-gray'></div>
+                <div className='filterlist-list-img-div-green'></div>
                     <div className='filterlist-list-sub-div'>
                         <h2>This is Title</h2>
-                        <p>test test message test test message</p>
+                        <p>test test message test test message test test test</p>
                     </div>
                 </div>
                 <div className='filterlist-list'>
-                <div className='filterlist-list-img-div-gray'></div>
+                <div className='filterlist-list-img-div-green'></div>
                     <div className='filterlist-list-sub-div'>
                         <h2>This is Title</h2>
-                        <p>test test message test message test message test message message message message message message message</p>
+                        <p>test test message test message test message test message message message message message message message test test test</p>
                     </div>
                 </div>
             </div>
