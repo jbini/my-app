@@ -40,7 +40,7 @@ export default function FilterListRed() {
                 <div className='filterlist-list-img-div-red'></div>
                     <div className='filterlist-list-sub-div'>
                         <h2>This is Title</h2>
-                        <p>test message test  message test message test message test message test message</p>
+                        <p>test message test test message test message test message test message</p>
                     </div>
                 </div>
             </div>
