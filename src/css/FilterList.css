@@ -5,13 +5,22 @@
     margin-bottom: 60px;
     text-align: center;
     overflow: hidden;
+    position: relative;
+}
+.filterlist-sec {
+    background-color: #ececec;
+    width: 1450px;
+    height: 1000px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
 }
 .filterlist-filter-div {
     background-color: #ececec;
     width: 1350px;
     height: 40px;
+    position: relative;
     text-align: left;
-    white-space: nowrap;
     display: inline-block;
 }
 .filterlist-filter {
