@@ -22,7 +22,7 @@ export default function AppHeaders() {
                     <ul>
                         <li><Link to='/categoryone'>Category One</Link></li>
                         <li><Link to='/categorytwo'>Category Two</Link></li>
-                        <li><a href="http://localhost:3000/">Category Three</a></li>
+                        <li><Link to="/categorythree">Category Three</Link></li>
                     </ul>
                 </li>
                 <li><a href="https://reactjs.org" className='nav-a' target='_blank' rel="noreferrer">Learn React</a></li>

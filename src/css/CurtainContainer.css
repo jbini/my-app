@@ -1,0 +1,96 @@
+/* 두번째 컨테이너 */
+.curtain-container {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .curtain-div {
+    background-color: #ececec;
+    width: 1350px;
+    height: 860px;
+    border: #ececec solid 50px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+  }
+  .curtain-div1{
+    background-color: #dddddd;
+    width: 1350px;
+    height: 280px;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+  }
+  .curtain-div2{
+    background-color: #dddddd;
+    width: 1350px;
+    height: 280px;
+    margin-bottom: 10px;
+  }
+  .curtain-div3{
+    background-color: #dddddd;
+    width: 1350px;
+    height: 280px;
+    margin-bottom: 10px;
+  }
+  .curtain-div1-circle {
+    background-color: #f5f4f4;
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    border-radius: 110px;
+    background-image: url(/public/img/felix.png);
+    background-size: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+  }
+  .curtain-div1-left {
+    width: 250px;
+    height: 280px;
+    position: absolute;
+    background:linear-gradient(-110deg, transparent 130px, #7e7e7e 0);
+  }
+  .curtain-div1-blink {
+    width: 0px;
+    height: 280px;
+    display: inline-block;
+    vertical-align: top;
+    transition: 1s;
+  }
+  .curtain-div1-right {
+    background-color: #c4c4c4;
+    width: 1350px;
+    height: 280px;
+    display: inline-block;
+    position: relative;
+    background:linear-gradient(70deg, transparent 130px, #7e7e7e 0);
+    z-index: 2;
+  }
+  .curtain-div1:hover .curtain-div1-blink {
+    width: 1100px;
+  }
+  .curtain-div1-sub {
+    width: 600px;
+    height: 280px;
+    position: absolute;
+    left: 400px;
+    z-index: 1;
+    white-space: pre-line;
+  }
+  .curtain-div1-sub h2 {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 100;
+  }
+  .curtain-div1-sub p {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #3d3d3d;
+  }

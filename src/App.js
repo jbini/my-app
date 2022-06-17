@@ -5,6 +5,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Home from './Home';
 import CategoryOne from './CategoryOne';
 import CategoryTwo from './CategoryTwo';
+import CategoryThree from './CategoryThree';
 
 export default function App() {
   
@@ -16,6 +17,7 @@ export default function App() {
           <Route path='/*' element={<Home />} />
           <Route path='/categoryone/' element={<CategoryOne />} />
           <Route path='/categorytwo/' element={<CategoryTwo />} />
+          <Route path='/categorythree/' element={<CategoryThree />} />
         </Routes>
         <Footer />
       </div>
