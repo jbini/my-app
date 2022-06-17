@@ -44,7 +44,7 @@
     top: 10px;
     left: 30px;
     border-radius: 110px;
-    background-image: url(/public/img/felix.png);
+    background-image: url(/public/img/snoopy2.png);
     background-size: 160px;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,11 +72,19 @@
     background:linear-gradient(70deg, transparent 130px, #7e7e7e 0);
     z-index: 2;
   }
+  .curtain-div1-right p{
+    position: absolute;
+    left: 340px;
+    margin-top: 60px;
+    font-size: 90px;
+    font-weight: 600;
+    color: #fdfdfd;
+  }
   .curtain-div1:hover .curtain-div1-blink {
     width: 1100px;
   }
   .curtain-div1-sub {
-    width: 600px;
+    width: 620px;
     height: 280px;
     position: absolute;
     left: 400px;

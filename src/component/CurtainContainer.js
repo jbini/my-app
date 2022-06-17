@@ -12,7 +12,9 @@ export default function CurtainContainer() {
                 <p>test message test message test message test message test message test message test message test message test message test message</p>
               </div>
               <div className='curtain-div1-blink'></div>
-              <div className='curtain-div1-right' />
+              <div className='curtain-div1-right'>
+                <p>First</p>
+              </div>
             </div>
             <div className='curtain-div2'></div>
             <div className='curtain-div3'></div>
