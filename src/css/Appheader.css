@@ -34,7 +34,7 @@
     font-weight: bold;
     justify-content: center;
     white-space: nowrap;
-    z-index: 9;
+    z-index: 19;
   }
   .logo-flex {
     background-color: #282c34;
@@ -43,7 +43,7 @@
     text-align: center;
     align-items: center;
     display: inline-flex;
-    z-index: 10;
+    z-index: 20;
   }
   .nav-container {
     background-color: #282c34;

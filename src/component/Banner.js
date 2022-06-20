@@ -45,22 +45,22 @@ export default function Banner() {
                 <label for='banner-btn3' className='right'></label>
                 <div className='banner-link-div'>
                 <div className='banner-link'>
-                    <a href='https://github.com/jbini' target='_blank' rel="noreferrer">link1</a>
+                    <a href='https://github.com/jbini' target='_blank' rel="noreferrer">Google</a>
                     <div className='banner-link-effect' />
                     <div className='banner-link-effect2' />
                   </div>
                   <div className='banner-link'>
-                    <a href='https://github.com/jbini' target='_blank' rel="noreferrer">link2</a>
+                    <a href='https://github.com/jbini' target='_blank' rel="noreferrer">Naver</a>
                     <div className='banner-link-effect' />
                     <div className='banner-link-effect2' />
                   </div>
                   <div className='banner-link'>
-                    <a href='https://github.com/jbini' target='_blank' rel="noreferrer">link3</a>
+                    <a href='https://github.com/jbini' target='_blank' rel="noreferrer">Daum</a>
                     <div className='banner-link-effect' />
                     <div className='banner-link-effect2' />
                   </div>
                   <div className='banner-link'>
-                    <a href='https://github.com/jbini' target='_blank' rel="noreferrer">link4</a>
+                    <a href='https://github.com/jbini' target='_blank' rel="noreferrer">Apple</a>
                     <div className='banner-link-effect' />
                     <div className='banner-link-effect2' />
                   </div>

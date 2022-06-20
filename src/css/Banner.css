@@ -81,14 +81,14 @@
     display: inline-block;
     width: 98px;
     height: 30px;
-    z-index: 1;
+    z-index: 4;
   }
   .banner-link:hover a{
     width: 89px;
     height: 30px;
-    border-left: #ececec solid 1px;
-    border-right: #ececec solid 1px;
-    color: #ececec;
+    border-left: #dfdfdf solid 1px;
+    border-right: #dfdfdf solid 1px;
+    color: #fcfcfc;
     text-decoration: none;
     transition: all ease 0.7s;
     /* border-bottom: #ececec solid 3px; */
@@ -102,7 +102,7 @@
     width: 50px;
     height: 50px;
     transition: all ease 0.3s;
-    z-index: 0;
+    z-index: 3;
   }
   .banner-link:hover .banner-link-effect {
     border: #ececec 2px solid;
@@ -117,7 +117,7 @@
     width: 56px;
     height: 56px;
     transition: all ease 0.3s;
-    z-index: 0;
+    z-index: 3;
   }
   .banner-link:hover .banner-link-effect2 {
     border: #dfdfdf 1px solid;
