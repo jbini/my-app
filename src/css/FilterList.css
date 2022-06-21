@@ -77,7 +77,9 @@
     text-align: left;
     overflow: hidden;
 }
-
+.filterlist-list-div {
+    display: inline-block;
+}
 .filterlist-list1 {
     background-color: #ececec;
     width: 327px;
@@ -173,6 +175,20 @@
 
 #graylist1:checked ~ .dark-bg {display: block;}
 #graylist1:checked ~ .filterlist-large-div {display: block;}
+#graylist2:checked ~ .dark-bg {display: block;}
+#graylist2:checked ~ .filterlist-large-div {display: block;}
+#graylist3:checked ~ .dark-bg {display: block;}
+#graylist3:checked ~ .filterlist-large-div {display: block;}
+#graylist4:checked ~ .dark-bg {display: block;}
+#graylist4:checked ~ .filterlist-large-div {display: block;}
+#graylist5:checked ~ .dark-bg {display: block;}
+#graylist5:checked ~ .filterlist-large-div {display: block;}
+#graylist6:checked ~ .dark-bg {display: block;}
+#graylist6:checked ~ .filterlist-large-div {display: block;}
+#graylist7:checked ~ .dark-bg {display: block;}
+#graylist7:checked ~ .filterlist-large-div {display: block;}
+#graylist8:checked ~ .dark-bg {display: block;}
+#graylist8:checked ~ .filterlist-large-div {display: block;}
 
 .dark-bg {
     display: none;
