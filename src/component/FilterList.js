@@ -1,7 +1,11 @@
 import '../css/FilterList.css'
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 export default function FilterList() {
+
+    let [listTitle,listTitleChange] = useState(['This is Title','This is Title2']);
+    
     return(
         <div className='filterlist-container'>
             
@@ -36,7 +40,7 @@ export default function FilterList() {
                         </div>
                         <div className='filterlist-large-img' />
                         <div className='filterlist-large-sub'>
-                            <h2>This is Tltle</h2>
+                            <h2>{listTitle[0]}</h2>
                             <p>test message test message test message test message</p>
                         </div>
                     </div>
