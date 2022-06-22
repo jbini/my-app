@@ -1,6 +1,4 @@
 import '../css/FilterList.css'
-import { useState } from 'react';
-import styled from "styled-components";
 
 export default function FilterListGrayList1(props) {
     
