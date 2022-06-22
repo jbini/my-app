@@ -41,7 +41,7 @@ export default function Banner() {
               </div>
               <div className='banner-slide-div'>
                 <label for='banner-btn1' className='left'></label>
-                <img src='./img/slide02.jpg' alt='slide01'></img>
+                <img src='./img/slide02.jpg' alt='slide02'></img>
                 <label for='banner-btn3' className='right'></label>
                 <div className='banner-link-div'>
                 <div className='banner-link'>
@@ -68,7 +68,7 @@ export default function Banner() {
               </div>
               <div className='banner-slide-div'>
                 <label for='banner-btn2' className='left'></label>
-                <img src='./img/slide03.jpg' alt='slide01'></img>
+                <img src='./img/slide03.jpg' alt='slide03'></img>
                 <label for='banner-btn1' className='right'></label>
                 <div className='banner-link-div'>
                 <div className='banner-link'>

@@ -114,6 +114,15 @@
     margin-top: 2px;
     border-radius: 15px;
     display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.filterlist-list-img-div-gray img {
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .filterlist-list-img-div-blue {
     /* background-image: url(/public/img/slide.jpg);
@@ -241,6 +250,15 @@
     border-top: #ececec solid 40px;
     width: 520px;
     height: 360px;
+    overflow: hidden;
+    position: relative;
+}
+.filterlist-large-img img {
+    height: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .filterlist-large-sub {
     width: 520px;
