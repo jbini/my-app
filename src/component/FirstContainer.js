@@ -1,30 +1,31 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import '../css/FirstContainer.css';
 
 
 export default function FirstContainer() {
+  
   // window.onload = function () {
   //   var fw = document.getElementById("first-window");
   //   fw.onclick = firstWindow;
   // }
-  let [btnName,btnNameChange] = useState(['jbini','jha']);
+  // let [btnName,btnNameChange] = useState(['jbini','jha']);
 
-  function firstFunction(fname, fage) {
-    return (
-      fname=fname,
-      fage=fage
-    )
-  };
+  // function firstFunction(fname, fage) {
+  //   return (
+  //     fname=fname,
+  //     fage=fage
+  //   )
+  // };
 
-  const FirstData = {
-    fname: "jbini",
-    fage: 27
-  };
-  function firstWindow() {
-    return (
-      alert(btnName[0])
-    )
-  };
+  // const FirstData = {
+  //   fname: "jbini",
+  //   fage: 27
+  // };
+  // function firstWindow() {
+  //   return (
+  //     alert(btnName[0])
+  //   )
+  // };
   
 
     return(
@@ -53,12 +54,12 @@ export default function FirstContainer() {
             </div>
           </div>
           <div className='first-div-list'>
-            <a onClick={() => firstWindow()}>
+            {/* <a onClick={() => firstWindow()}>
               <div className='third-div-box-button'>{btnName[0]}</div>
             </a>
             <a onClick={() => firstWindow()}>
               <div className='third-div-box-button'>{btnName[1]}</div>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className='second-div'>
