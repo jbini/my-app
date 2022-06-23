@@ -20,7 +20,7 @@ export default function FilterListGrayList(props) {
                     <img src={'./img/'+setImgName+'.jpg'} alt={setImgName} />
                 </div>
                 <div className='filterlist-large-sub'>
-                    <h2>This is Title {props.listNumber}</h2>
+                    <h2>{props.listNumber}. {props.listTitle}</h2>
                     <p>{props.subContents}</p>
                 </div>
             </div>
@@ -30,7 +30,7 @@ export default function FilterListGrayList(props) {
                     <img src={'./img/'+setImgName+'.jpg'} alt={setImgName} />
                 </div>
                 <div className='filterlist-list-sub-div'>
-                    <h2>This is Title {props.listNumber}</h2>
+                    <h2>{props.listNumber}. {props.listTitle}</h2>
                     <p>{props.subContents}</p>
                 </div>
             </label>
