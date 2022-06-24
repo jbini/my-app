@@ -1,4 +1,4 @@
-import '../css/FilterList.css'
+import '../css/FilterList.css';
 
 export default function FilterListGrayList1(props) {
     

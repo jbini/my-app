@@ -1,4 +1,4 @@
-import '../css/CurtainContainer.css'
+import '../css/CurtainContainer.css';
 
 export default function CurtainContainer() {
     return (

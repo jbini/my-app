@@ -1,4 +1,4 @@
-import '../css/GrayLine.css'
+import '../css/GrayLine.css';
 
 export default function GrayLine(){
     return(

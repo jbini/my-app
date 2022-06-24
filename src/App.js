@@ -6,6 +6,7 @@ import Home from './Home';
 import CategoryOne from './CategoryOne';
 import CategoryTwo from './CategoryTwo';
 import CategoryThree from './CategoryThree';
+import TopButton from './component/TopButton';
 
 export default function App() {
   
@@ -13,8 +14,8 @@ export default function App() {
     <BrowserRouter>
       <div className="App" >
         <AppHeaders />
+        <TopButton />
         <Routes>
-          
           <Route path='/*' element={<Home />} />
           <Route path='/categoryone/' element={<CategoryOne />} />
           <Route path='/categorytwo/' element={<CategoryTwo />} />

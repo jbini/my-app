@@ -1,4 +1,4 @@
-import '../css/FilterList.css'
+import '../css/FilterList.css';
 import { Link } from 'react-router-dom';
 import FilterListGrayList1 from './FilterListGrayList1';
 import FilterListGrayList from './FilterListGrayList';

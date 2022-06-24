@@ -1,4 +1,4 @@
-import '../css/ThirdContainer.css'
+import '../css/ThirdContainer.css';
 
 export default function ThirdContainer() {
     return(
