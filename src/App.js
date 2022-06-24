@@ -14,6 +14,7 @@ export default function App() {
       <div className="App" >
         <AppHeaders />
         <Routes>
+          
           <Route path='/*' element={<Home />} />
           <Route path='/categoryone/' element={<CategoryOne />} />
           <Route path='/categorytwo/' element={<CategoryTwo />} />
