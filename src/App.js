@@ -7,6 +7,7 @@ import CategoryOne from './CategoryOne';
 import CategoryTwo from './CategoryTwo';
 import CategoryThree from './CategoryThree';
 import TopButton from './component/TopButton';
+import handleScroll from './component/HandleScroll';
 
 export default function App() {
   
@@ -14,7 +15,7 @@ export default function App() {
     <BrowserRouter>
       <div className="App" >
         <AppHeaders />
-        <TopButton />
+        <TopButton handleClick={handleScroll}/>
         <Routes>
           <Route path='/*' element={<Home />} />
           <Route path='/categoryone/' element={<CategoryOne />} />
