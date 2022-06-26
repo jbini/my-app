@@ -20,8 +20,6 @@ export default function CategoryTwo() {
         <SecondContainer />
         <GrayLine />
         <SecondContainer />
-        <GrayLine />
-        <SecondContainer />
       </div>
   );
 }
