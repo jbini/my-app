@@ -10,7 +10,6 @@
     width: 1350px;
     position: relative;
     margin-bottom: 60px;
-
 }
 .downlist-div input {
     display: none;
@@ -18,7 +17,7 @@
 .downlist {
     background-color: #a1a1a1;
     width: 1350px;
-    height: 50px;
+    max-height: 50px;
     border-radius: 5px;
     position: relative;
     display: inline-block;
@@ -26,7 +25,12 @@
     margin-bottom: 2px;
     vertical-align: top;
     text-align: left;
-    transition: .3s;
+    transition: .5s;
+    overflow: hidden;
+}
+.downlist-sub {
+    width: 1350px;
+    height: 50px;
 }
 .downlist h3 {
     margin: 15px;
@@ -43,9 +47,24 @@
     color: #3d3d3d;
 }
 
+
+.downlist-content {
+    width: 1100px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    white-space: pre-line;
+}
+.downlist-content p {
+    margin-left: 40px;
+    color: #575757;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
 #downlist1:checked ~ #downlist-list1 {
-    height: 500px;
-    transition: .3s;
+    max-height: 900px;
     background-color: #dadada;
 }
 #downlist1:checked ~ #downlist-list1 .downlist-close {
@@ -57,8 +76,7 @@
 }
 
 #downlist2:checked ~ #downlist-list2 {
-    height: 500px;
-    transition: .3s;
+    max-height: 900px;
     background-color: #dadada;
 }
 #downlist2:checked ~ #downlist-list2 .downlist-close {
@@ -70,8 +88,7 @@
 }
 
 #downlist3:checked ~ #downlist-list3 {
-    height: 500px;
-    transition: .3s;
+    max-height: 900px;
     background-color: #dadada;
 }
 #downlist3:checked ~ #downlist-list3 .downlist-close {
@@ -83,8 +100,7 @@
 }
 
 #downlist4:checked ~ #downlist-list4 {
-    height: 500px;
-    transition: .3s;
+    max-height: 900px;
     background-color: #dadada;
 }
 #downlist4:checked ~ #downlist-list4 .downlist-close {
@@ -96,8 +112,7 @@
 }
 
 #downlist5:checked ~ #downlist-list5 {
-    height: 500px;
-    transition: .3s;
+    max-height: 900px;
     background-color: #dadada;
 }
 #downlist5:checked ~ #downlist-list5 .downlist-close {

@@ -22,7 +22,6 @@ export default function CategoryTwo() {
         <GrayLine />
         <DownList />
         <GrayLine />
-        <SecondContainer />
       </div>
   );
 }

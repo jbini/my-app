@@ -39,8 +39,6 @@ export default function Home() {
         <ThirdContainer />
         <GrayLine />
         <SecondContainer />
-        <GrayLine />
-        <FirstContainer />
       </div>
   );
     
