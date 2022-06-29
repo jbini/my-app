@@ -3,6 +3,7 @@ import GrayLine from './component/GrayLine';
 import SecondContainer from './component/SecondContainer';
 import { useEffect } from "react";
 import DownList from './component/DownList';
+import Manuscript from './component/Manuscript';
 
 
 function ScrollToTop() {
@@ -17,8 +18,7 @@ export default function CategoryTwo() {
   return (
       <div>
         <ScrollToTop />
-        <GrayLine /><GrayLine />
-        <SecondContainer />
+        <Manuscript />
         <GrayLine />
         <DownList />
         <GrayLine />

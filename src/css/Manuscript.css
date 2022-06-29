@@ -1,0 +1,126 @@
+  .banner-container {
+    min-width: 100%;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  /* 왼쪽 div */
+  .banner-div {
+    background-color: #ececec;
+    width: 1350px;
+    height: 770px;
+    margin-top: 80px;
+    border: #ececec solid 50px;
+    text-align: left;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .banner-btn {
+    white-space: normal;
+    text-align: center;
+    width: 1350px;
+    height: 500px;
+  }
+  .banner-btn input{
+    width: 30px;
+    height: 15px;
+    margin: 5px;
+    display: none;
+  }
+  #banner-btn1:checked ~ .banner-slide {transform: translate(0px);}
+  #banner-btn2:checked ~ .banner-slide {transform: translate(-1350px);}
+  #banner-btn3:checked ~ .banner-slide {transform: translate(-2700px);}
+  
+  .banner-slide-div label {position: absolute; z-index:1;transform:translateY(320px);padding:50px;cursor: pointer; display: none;}
+  .left {left:-20px;background:url('/public/img/left.jpg') center center / 100% no-repeat;}
+  .right {right:-20px;background:url('/public/img/right.jpg') center center / 100% no-repeat;}
+  
+  .banner-slide:hover label {display: inline-block;}
+  
+  .banner-slide {
+    width: 4050px;
+    white-space: nowrap;
+    transition: all 0.5s;
+  }
+  .banner-slide-div {
+    width: 1350px;
+    height: 758px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+  .banner-slide-div img{
+    width: 100%;
+  }
+  .banner-link-div {
+    width: 650px;
+    height: 40px;
+    position: absolute;
+    top: 700px;
+    left: 350px;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  .banner-link {
+    width: 100px;
+    height: 30px;
+    margin-left: 23px;
+    margin-right: 23px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    
+  }
+  .banner-link a {
+    color: #757575;
+    text-decoration: none;
+    position: relative;
+    /* border-bottom: #757575 solid 2px; */
+    display: inline-block;
+    width: 98px;
+    height: 30px;
+    z-index: 4;
+  }
+  .banner-link:hover a{
+    width: 89px;
+    height: 30px;
+    border-left: #dfdfdf solid 1px;
+    border-right: #dfdfdf solid 1px;
+    color: #fcfcfc;
+    text-decoration: none;
+    transition: all ease 0.5s;
+    /* border-bottom: #ececec solid 3px; */
+  }
+
+  .banner-link-effect {
+    display: block;
+    position: absolute;
+    left: 23px;
+    top: -13px;
+    width: 50px;
+    height: 50px;
+    transition: all ease 0.3s;
+    z-index: 3;
+  }
+  .banner-link:hover .banner-link-effect {
+    border: #ececec 2px solid;
+    transform: rotate(45deg);
+    transition: all ease 0.3s;
+  }
+  .banner-link-effect2 {
+    display: block;
+    position: absolute;
+    left: 21px;
+    top: -15px;
+    width: 56px;
+    height: 56px;
+    transition: all ease 0.3s;
+    z-index: 3;
+  }
+  .banner-link:hover .banner-link-effect2 {
+    border: #dfdfdf 1px solid;
+    transform: rotate(-135deg);
+    transition: all ease 0.3s;
+  }
