@@ -51,7 +51,11 @@
     text-align: center;
   }
   .banner-slide-div img{
-    width: 100%;
+    width: 1350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
   .banner-link-div {
     width: 650px;
