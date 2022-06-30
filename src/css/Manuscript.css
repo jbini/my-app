@@ -6,31 +6,255 @@
   }
   
   .manuscript-div {
-    background-color: #bebebe;
+    background-color: #ececec;
     width: 1350px;
     height: 770px;
     margin-top: 80px;
     border: #ececec solid 50px;
-    text-align: center;
     display: inline-block;
+    position: relative;
+    z-index: 1;
   }
-  
-  .manuscript-box {
-    background-color: #dab0b0;
+  .manuscript-div video {
     width: 1350px;
-    height: 323px;
+    height: 770px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  /* height 384 */
+  .manuscript-box {
+    width: 1350px;
+    height: 376px;
     margin-top: 185px;
-    border-top: #d4d4d4 solid 2px;
-    border-bottom: #d4d4d4 solid 2px;
+    border-top: #ffffff solid 4px;
+    border-bottom: #ffffff solid 4px;
+    position: relative;
+    z-index: 2;
   }
   
   .manuscript-sub-box {
     width: 1350px;
     height: 150px;
-    margin-top: 5px;
-    border-top: #d4d4d4 solid 2px;
-    border-bottom: #d4d4d4 solid 2px;
+    margin-top: 20px;
+    border-top: #ffffff solid 4px;
+    border-bottom: #ffffff solid 4px;
+    text-align: center;
+    position: relative;
   }
-  .manuscript-sub {
-    
+  .manuscript-sub1 {
+    width: 150px;
+    height: 150px;
+    border-left: #ffffff solid 4px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
   }
+  .manuscript-sub9 {
+    width: 150px;
+    height: 150px;
+    border-left: #ffffff solid 4px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub2 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub3 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub4 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub5 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub6 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub7 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub8 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub10 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub11 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub12 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub13 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub14 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub15 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .manuscript-sub16 {
+    width: 150px;
+    height: 150px;
+    border-right: #ffffff solid 4px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+
+  .manuscript-sub-box h2 {
+    margin: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    font-size: 130px;
+    color: #ffffff;
+    z-index: 4;
+  }
+  .manuscript-sub-box h3 {
+    margin: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    font-size: 130px;
+    color: #3b3b3b;
+    z-index: 3;
+  }
+  @keyframes sub-jump {
+    0% {
+      display: block;
+    }
+    5% {
+      transform: translate(-58%, -58%);
+    }
+    15% {
+      transform: translate(-50%, -55%);
+    }
+  }
+  .manuscript-div:hover .manuscript-sub1 h2 {
+    animation: sub-jump 6s .1s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub2 h2 {
+    animation: sub-jump 6s .15s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub3 h2 {
+    animation: sub-jump 6s .2s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub4 h2 {
+    animation: sub-jump 6s .25s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub5 h2 {
+    animation: sub-jump 6s .3s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub6 h2 {
+    animation: sub-jump 6s .35s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub7 h2 {
+    animation: sub-jump 6s .4s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub8 h2 {
+    animation: sub-jump 6s .45s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub9 h2 {
+    animation: sub-jump 6s .5s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub10 h2 {
+    animation: sub-jump 6s .55s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub11 h2 {
+    animation: sub-jump 6s .6s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub12 h2 {
+    animation: sub-jump 6s .65s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub13 h2 {
+    animation: sub-jump 6s .7s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub14 h2 {
+    animation: sub-jump 6s .75s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub15 h2 {
+    animation: sub-jump 6s .8s infinite ease-out;
+  }
+  .manuscript-div:hover .manuscript-sub16 h2 {
+    animation: sub-jump 6s .85s infinite ease-out;
+  }
+  
+  
