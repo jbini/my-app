@@ -182,7 +182,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -55%);
-    font-size: 130px;
+    font-size: 120px;
     color: #ffffff;
     z-index: 4;
   }
@@ -193,8 +193,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -55%);
-    font-size: 130px;
-    color: #3b3b3b;
+    font-size: 120px;
+    color: #5a5a5a;
     z-index: 3;
   }
   @keyframes sub-jump {
@@ -209,52 +209,52 @@
     }
   }
   .manuscript-div:hover .manuscript-sub1 h2 {
-    animation: sub-jump 6s .1s infinite ease-out;
+    animation: sub-jump 5s .1s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub2 h2 {
-    animation: sub-jump 6s .15s infinite ease-out;
+    animation: sub-jump 5s .15s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub3 h2 {
-    animation: sub-jump 6s .2s infinite ease-out;
+    animation: sub-jump 5s .2s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub4 h2 {
-    animation: sub-jump 6s .25s infinite ease-out;
+    animation: sub-jump 5s .25s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub5 h2 {
-    animation: sub-jump 6s .3s infinite ease-out;
+    animation: sub-jump 5s .3s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub6 h2 {
-    animation: sub-jump 6s .35s infinite ease-out;
+    animation: sub-jump 5s .35s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub7 h2 {
-    animation: sub-jump 6s .4s infinite ease-out;
+    animation: sub-jump 5s .4s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub8 h2 {
-    animation: sub-jump 6s .45s infinite ease-out;
+    animation: sub-jump 5s .45s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub9 h2 {
-    animation: sub-jump 6s .5s infinite ease-out;
+    animation: sub-jump 5s .5s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub10 h2 {
-    animation: sub-jump 6s .55s infinite ease-out;
+    animation: sub-jump 5s .55s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub11 h2 {
-    animation: sub-jump 6s .6s infinite ease-out;
+    animation: sub-jump 5s .6s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub12 h2 {
-    animation: sub-jump 6s .65s infinite ease-out;
+    animation: sub-jump 5s .65s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub13 h2 {
-    animation: sub-jump 6s .7s infinite ease-out;
+    animation: sub-jump 5s .7s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub14 h2 {
-    animation: sub-jump 6s .75s infinite ease-out;
+    animation: sub-jump 5s .75s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub15 h2 {
-    animation: sub-jump 6s .8s infinite ease-out;
+    animation: sub-jump 5s .8s infinite ease-out;
   }
   .manuscript-div:hover .manuscript-sub16 h2 {
-    animation: sub-jump 6s .85s infinite ease-out;
+    animation: sub-jump 5s .85s infinite ease-out;
   }
   
   
