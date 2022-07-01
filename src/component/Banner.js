@@ -14,7 +14,7 @@ export default function Banner() {
             <div className='banner-slide'>
               <div className='banner-slide-div'>
                 <label for='banner-btn3' className='left'></label>
-                <img src='./img/slide01.jpg' alt='slide01'></img>
+                <img src='/public/img/slide01.jpg' alt='slide01'></img>
                 <label for='banner-btn2' className='right'></label>
                 <div className='banner-link-div'>
                   <div className='banner-link'>
